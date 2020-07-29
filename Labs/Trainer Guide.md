@@ -31,13 +31,13 @@ Algunos alumnos pueden sentir que es excesivo realizar todas las personalizacion
 > [IMPORTANTE]
 > Estamos construyendo componentes típicos para las soluciones de Power Platform. Las dependencias son mínimas pero el **Laboratorio 1** es esencial, ya que el resto de los ejercicios usan el modelo de datos construido durante esta práctica de laboratorio. Los datos de muestra importados durante el laboratorio hacen que compilar y probar las aplicaciones sea más fácil, realista y fácil de relacionar.
 
-Además del modelo de datos común creado en el Laboratorio 1, no hay dependencias entre diferentes laboratorios. Los capacitadores deben explicar claramente el objetivo de cada laboratorio y detallar los componentes y las técnicas de soluciones de alto nivel. Luego, se debe alentar a los alumnos a diseñar y construir sus propias soluciones sin seguir instrucciones paso a paso para cada ejercicio.
+Además del modelo de datos común creado en el Laboratorio 1, no hay dependencias entre diferentes laboratorios. Los entrenadores deben explicar claramente el objetivo de cada laboratorio y detallar los componentes y las técnicas de soluciones de alto nivel. Luego, se debe alentar a los alumnos a diseñar y construir sus propias soluciones sin seguir instrucciones paso a paso para cada ejercicio.
 
 ## Componentes
 
-Hay componentes completos disponibles para *todos* los ejercicios. Incluyen aplicaciones de lienzo, aplicaciones basadas en modelos, flujos de automatización de energía, archivo pbix Power BI, datos de muestra y mapa de importación de datos y la solución completa exportada como administrada y no administrada. Los componentes no deben usarse como acceso directo para completar el ejercicio. En cambio, son útiles como herramienta de demostración y como punto de referencia general.
+Hay componentes completos disponibles para *todos* los ejercicios. Incluyen aplicaciones de lienzo, aplicaciones basadas en modelos, flujos de Power Automate archivo pbix Power BI, datos de muestra y mapa de importación de datos y la solución completa exportada como administrada y no administrada. Los componentes no deben usarse como acceso directo para completar el ejercicio. En cambio, son útiles como herramienta de demostración y como punto de referencia general.
 
-Debido a que todos los laboratorios del curso dependen del modelo de datos, el modelo está disponible como una solución independiente [CampusDataModel_1_0_0_1.zip](..\Allfiles\CampusDataModel_1_0_0_1.zip). Se puede importar a un entorno nuevo seguido del Ejercicio n.° 3 en el Laboratorio 1 (importación de datos). Eso creará un punto de partida para los alumnos que no pudieron completar el laboratorio. El modelo de datos predefinidos les brinda a estos alumnos la oportunidad de ponerse al día y continuar con el resto de los ejercicios. 
+Debido a que todos los laboratorios del curso dependen del modelo de datos, el modelo está disponible como una solución independiente [CampusDataModel_1_0_0_1.zip](..\Allfiles\CampusDataModel_1_0_0_1.zip). Se puede importar a un entorno nuevo seguido del Ejercicio 3 en el Laboratorio 1 (importación de datos). Eso creará un punto de partida para los alumnos que no pudieron completar el laboratorio. El modelo de datos predefinidos les brinda a estos alumnos la oportunidad de ponerse al día y continuar con el resto de los ejercicios. 
 
 ## Desafíos
 
@@ -48,9 +48,9 @@ Use los desafíos para iniciar una discusión sobre escenarios del mundo real y 
 Laboratorios
 ======================
 
-## Laboratorio 01: Modelo de datos
+## Laboratorio 1: Modelo de datos
 
-Un modelo de datos sólido es la base de las aplicaciones creadas en la plataforma. En este laboratorio, estableceremos un entorno y crearemos soluciones para rastrear los cambios. También crearemos un modelo de datos para admitir los requisitos e importar datos de muestra.
+Un modelo de datos sólido es la base de las aplicaciones creadas en la plataforma. En este laboratorio, estableceremos un entorno y crearemos soluciones para hacer un seguimiento de los cambios. También crearemos un modelo de datos para admitir los requisitos e importar datos de muestra.
 
 Temas para discutir:
 
@@ -58,9 +58,9 @@ Temas para discutir:
 * ¿Cómo aborda el modelado?
 * ¿Por dónde empieza?
 * Relaciones 
-* Buenas prácticas para implementar el modelo de datos en CDS
+* Prácticas recomendadas para implementar el modelo de datos en CDS
 * Traer entidades de Common Data Model (por ejemplo, contactos): qué incluir.
-* Conjuntos de datos de muestra de desarrollo/prueba: cuánto es suficiente. Buenas prácticas en torno a la creación de conjuntos de datos de desarrollo/prueba.
+* Conjuntos de datos de muestra de desarrollo/prueba: cuánto es suficiente. Prácticas recomendadas en torno a la creación de conjuntos de datos de desarrollo/prueba.
 
 ### Desafíos
 
@@ -82,13 +82,13 @@ Temas para discutir:
 
 * Las visitas a ciertos edificios requieren la aprobación de la gerencia. ¿Qué cambiaría el proceso de aprobación en el modelo de datos?
 
-  > Discusión de los flujos de procesos comerciales y aprobaciones de automatización de energía como técnicas para introducir el factor humano en los procesos.
+  > Discusión de los flujos de procesos comerciales y aprobaciones de Power Automate como técnicas para introducir el factor humano en los procesos.
 
-## Laboratorio 02 Aplicación de lienzo
+## Laboratorio 2: Aplicación de lienzo
 
 Este laboratorio consta de dos partes dirigidas a diferentes usuarios.
 
-En la parte 1 de este laboratorio, creará una aplicación de lienzo de Power Apps que el personal de la universidad pueda usarla para administrar las visitas de sus invitados.
+En la parte 1 de este laboratorio, creará una aplicación de lienzo de Power Apps que el personal de la universidad podrá usar para administrar las visitas de sus invitados.
 
 En la parte 2 de este laboratorio, creará una aplicación de lienzo de Power Apps que el personal de seguridad usará en las entradas del edificio para validar y registrar rápidamente a los visitantes.
 
@@ -142,7 +142,7 @@ Temas para discutir
 
   > Este es un tema bueno pero potencialmente complejo y largo para discutir. Considere iniciar una discusión y dar a los alumnos alguna forma de "tarea para casa". Debata cómo Power Apps permite un enfoque iterativo para crear aplicaciones, es decir, empiece de forma sencilla y mejore sobre la marcha.
 
-## Laboratorio 03 Power Automate
+## Laboratorio 3: Power Automate
 
 En este laboratorio, creará flujos de Power Automate para automatizar varias partes de la administración del campus. Este laboratorio requiere, además del Laboratorio 1, una aplicación integrada en la parte 1 del Laboratorio 2. Esto es necesario para que se puedan realizar pruebas de automatización (desencadenar procesos al introducir nuevos datos)
 
@@ -174,7 +174,7 @@ Temas para discutir
 
   > Usando variables, creando expresiones más compleja y manipulando el formato del correo electrónico.
 
-## Power BI, Laboratorio 4
+## Laboratorio 4: Power BI
 
 En este laboratorio, creará un panel de Power BI que mostrará los datos sobre las visitas al campus.
 
@@ -207,7 +207,7 @@ Temas para discutir
 
   > Este es un tema complejo y las soluciones probablemente estén fuera del alcance de la mayoría de los alumnos, pero es importante analizar el envejecimiento de los datos, las instantáneas frente a las transmisiones, la frecuencia de las actualizaciones de los datos y los datos obsoletos en general.
 
-## Aplicación basada en modelo, Laboratorio 05
+## Laboratorio 5: Aplicación basada en modelo
 
 En este laboratorio, creará una aplicación impulsada por el modelo de Power Apps para permitir que el personal del campus administrativo administre los registros de visitas en todo el campus.
 

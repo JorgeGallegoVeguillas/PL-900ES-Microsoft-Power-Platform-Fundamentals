@@ -37,7 +37,7 @@ Cuestiones que tener en cuenta antes de comenzar
 -   ¿Cuál es el mecanismo de distribución más apropiado para los códigos de visitante?
 -   Cómo se pueden medir las estadías prolongadas y pueden aplicar políticas estrictas.
 
-Ejercicio n.° 1: Crear flujo de notificación de visita
+Ejercicio 1: Crear flujo de notificación de visita
 ===============================
 
 **Objetivo:** En este ejercicio, creará un flujo de Power Automate que implementa el requisito. La notificación del visitante se realiza mediante correo electrónico. La notificación incluye el código único asignado a la visita.
@@ -108,7 +108,7 @@ Tarea \#2: Valide y pruebe el flujo
 4.  Abra el flujo, ubique y abra el más reciente **Ejecutar**
 5.  Abra el paso **Correo** y verifique que el contenido del correo electrónico se haya generado correctamente.
 
-# Ejercicio n.° 2: Cree un flujo de barrido de seguridad
+# Ejercicio 2: Cree un flujo de barrido de seguridad
 
 **Objetivo:** En este ejercicio, creará un flujo de Power Automate que implementa el requisito. El barrido de seguridad se realiza cada 15 minutos y se notifica a la seguridad si alguno de los visitantes se ha pasado de la hora programada.
 
@@ -142,9 +142,9 @@ Tarea \#2: Valide y pruebe el flujo
 
    Para desglosarlo
 
-   * "statecode eq 0" filtra las visitas activas (donde el estado es igual a activo)
-   * "bc_actualstart ne null" restringe la búsqueda a las visitas donde el Inicio real tiene un valor, es decir, hubo un registro
-   *  "bc_actualend eq null" restringe la búsqueda a las visitas donde no se realizó pago (el final real no tiene valor) 
+   * `statecode eq 0` filtra las visitas activas (donde el estado es igual a activo)
+   * `bc_actualstart ne null` restringe la búsqueda a las visitas donde el Inicio real tiene un valor, es decir, hubo un registro
+   *  `bc_actualend eq null` restringe la búsqueda a las visitas donde no se realizó pago (el final real no tiene valor) 
    * `Microsoft.Dynamics.CRM.OlderThanXMinutes (PropertyName = 'bc_scheduledend', PropertyValue = 15)` restringe las visitas donde debían completarse hace más de 15 minutos.  
 
 6.  Haga clic en **Nuevo paso**. Busque **Aplicar**, Seleccione la acción **Aplicar a cada una** 

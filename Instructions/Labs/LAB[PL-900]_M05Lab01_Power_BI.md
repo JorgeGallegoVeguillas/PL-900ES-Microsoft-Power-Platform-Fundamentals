@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Laboratorio 06: Power BI'
-    module: 'Módulo 05: Comience con Power BI'
+    title: 'Laboratorio: Power BI'
+    module: 'Módulo 5: Comenzar con Power BI'
 ---
 
-# PL-900: Fundamentos de Microsoft Power Platform
-## Módulo 4, Laboratorio 6: Power BI
+# Módulo 5: Comenzar con Power BI
+## Laboratorio: Power BI
 
 Escenario
 ========
@@ -14,7 +14,7 @@ Bellows College es una institución educativa que tiene un campus con varios edi
 
 La administración del campus querría modernizar el sistema de registro de visitantes de los edificios cuyo acceso esté controlado por el personal de seguridad y en los que los anfitriones deban anotar con antelación las visitas y dejar constancia de ellas.
 
-A lo largo de este curso, creará aplicaciones y recurrirá a la automatización para que el personal de administración y seguridad de Bellows College administre y controle el acceso a los edificios del campus. 
+A lo largo de este curso, creará aplicaciones y realizará la automatización para permitir que el personal de administración y seguridad de Bellows College administre y controle el acceso a los edificios en el campus. 
 
 En este laboratorio, creará un panel de control de Power BI que visualiza datos sobre las visitas al campus.
 
@@ -25,9 +25,9 @@ Seguiremos los pasos a continuación para diseñar y crear el panel de control d
 
 -   Conéctese al Common Data Service 
 -   Transforme los datos para incluir descripciones fáciles de usar para los registros relacionados (búsquedas)
--    Cree y publique un informe con varias visualizaciones de la información de las visitas al campus.
--    Consulta de lenguaje natural del usuario para crear visualizaciones adicionales
--    Cree una vista móvil
+-   Cree y publique un informe con varias visualizaciones de la información de las visitas al campus.
+-   Consulta de lenguaje natural del usuario para crear visualizaciones adicionales
+-   Cree una vista móvil
 
 
 ## Requisitos previos
@@ -42,7 +42,7 @@ Cuestiones que tener en cuenta antes de comenzar
 -   ¿Tiene suficientes datos para visualizar?
 -   ¿Cuáles son las características posibles que puede usar para analizar datos sobre las visitas?
 
-Ejercicio n.° 1: Cree informes de Power BI 
+Ejercicio 1: Cree informes de Power BI 
 ===============================
 
 **Objetivo:** En este ejercicio, creará un informe de Power BI basado en datos de la base de datos de Common Data Service.
@@ -99,7 +99,7 @@ Tarea n.° 1: Preparación de datos
 2. Arrastre el campo **Edificio** y colóquelo en el cuadro de destino **Leyenda**.
 3. Arrastre el campo **Visitas** y colóquelo en el cuadro de destino **Valores**.
 4. Cambie el tamaño del gráfico circular utilizando los tiradores de las esquinas para que todos los componentes del gráfico sean visibles.
-5. Haga clic en **Nueva visualización** en la cinta de Power BI, luego seleccione el gráfico de columnas apiladas en el panel de **Visualizaciones**. 
+5. Haga clic en **Nueva visualización** en la cinta de Power BI y, si no lo ha hecho todavía, seleccione el gráfico de columnas apiladas en el panel de **Visualizaciones**. 
 6. Arrastre el campo **Visitas** y colóquelo en el cuadro de destino **Valores**.
 7. Arrastre el campo **Comienzo** y colóquelo en el cuadro de destino **Eje**.
 8. Haga clic en **X** junto a **Día** y **Trimestre** para dejar solo los totales de **Año** y **Mes**.
@@ -110,7 +110,7 @@ Tarea n.° 1: Preparación de datos
     * Desglose al nivel del mes usando iconos o el comando de cintas **Datos/Ejercicio | Expandir el siguiente nivel**.
 11. Guarde el trabajo en curso presionando **Archivo | Guardar**.
 
-Ejercicio n.° 2: Crear panel de control de Power BI
+Ejercicio 2: Crear panel de control de Power BI
 ================================
 
 ## Tarea n.° 1: Publicar informe de Power BI
@@ -142,7 +142,7 @@ Ejercicio n.° 2: Crear panel de control de Power BI
 ## Tarea n.° 4: Crear vista de teléfono móvil
 
 1. Seleccione el informe de la zona de **Informes**.
-2. Dependiendo de la versión de la interfaz de usuario, seleccione ... | Vista para dispositivos móviles o **Vista web | Vista del teléfono**.
+2. Dependiendo de la versión de la interfaz de usuario, seleccione ... | Vista para dispositivos móviles** o **Vista web | Vista del teléfono.
 3. Reorganice los iconos como desee.
 4. Seleccione... | Genere código QR.
 5. Si tiene un dispositivo móvil, escanee el código utilizando una aplicación de escáner QR disponible en plataformas iOS y Android.

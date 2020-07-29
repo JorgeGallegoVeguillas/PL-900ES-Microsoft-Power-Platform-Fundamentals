@@ -41,7 +41,7 @@ Cuestiones que tener en cuenta antes de comenzar
 -   Cómo reducir los registros seleccionados para mejorar el rendimiento de la aplicación y la adopción del usuario
 
 
-Ejercicio n.° 1: Creación de una aplicación de lienzo del personal
+Ejercicio 1: Creación de una aplicación de lienzo del personal
 ===============================
 
 **Objetivo:** En este ejercicio, creará una aplicación de lienzo a partir de una plantilla y luego la modificará para incluir los datos requeridos
@@ -123,11 +123,11 @@ En esta tarea, configurará la galería pregenerada para mostrar el título, las
 4.  Reemplace la expresión con lo siguiente `Min(150, BrowseGallery1.Height - 60)`. Eso asegurará suficiente espacio para información adicional.
 5.  Edite la galería presionando el icono de lápiz en la esquina superior izquierda de la galería
 6.  Seleccione el campo con fecha hora 
-7.  Cambie la propiedad **Texto** de " ThisItem.'Created On' " a " ThisItem.'Scheduled Start' "
+7.  Cambie la propiedad **Texto** de `ThisItem.'Created On'` a `ThisItem.'Scheduled Start'`
 8.  Seleccione el campo de nuevo
-9.  Presione "CTRL-C" y, luego, "CTRL-V" para crear una copia del campo.
+9.  Presione `CTRL-C` y, luego, `CTRL-V` para crear una copia del campo.
 10.  Con el ratón o el teclado, mueva el control copiado hacia abajo y alinéelo con los otros controles de la galería.
-11.  Cambie la propiedad **Texto** a " ThisThisItem.'Scheduled End' "
+11.  Cambie la propiedad **Texto** a `ThisThisItem.'Scheduled End'`
 12.  Para conservar el trabajo en curso, haga clic en **Archivo | Guardar** y, a continuación, pulse **Guardar** 
 
 ## Tarea #6: Agregar filtros de fecha
@@ -159,13 +159,13 @@ Debido a que el número de visitas crece continuamente, los usuarios necesitan u
        	"bc_code","bc_name"
        ),
      "bc_code",
-     If (SortDescending1, Descending, Ascending)
+     If(SortDescending1, Descending, Ascending)
    )
    ```
    
 8. Para conservar el trabajo en curso, haga clic en **Archivo | Guardar** y, a continuación, pulse **Guardar**
 
-# Ejercicio n.° 2: Completar la aplicación
+# Ejercicio 2: Completar la aplicación
 
 En este ejercicio probará la aplicación y, una vez que tenga éxito, la agregará a su solución.
 

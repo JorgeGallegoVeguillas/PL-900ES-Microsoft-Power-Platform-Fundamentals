@@ -50,7 +50,7 @@ Cuestiones que tener en cuenta antes de comenzar
 * Tipos de datos, restricciones (por ejemplo, la longitud máxima de un nombre)
 * Formato de datetime para facilitar la localización
 
-Ejercicio n.° 1: Creación del entorno y la solución
+Ejercicio 1: Creación del entorno y la solución
 ==================================================
 
 **Objetivo:** En este ejercicio, preparará el entorno y creará una solución que admita los procesos de modelado de datos. 
@@ -242,7 +242,7 @@ Tarea n.° 3: Crear relaciones
 5.  Seleccione **Soluciones** desde el menú superior y haga clic en **Publicar todo
     Personalizaciones.**
 
-# Ejercicio n.° 3: Importar datos
+# Ejercicio 3: Importar datos
 
 **Objetivo:** En este ejercicio importará datos de muestra a la base de datos de Common Data Service.
 

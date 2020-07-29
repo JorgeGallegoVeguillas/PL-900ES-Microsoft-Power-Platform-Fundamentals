@@ -42,7 +42,7 @@ Cuestiones que tener en cuenta antes de comenzar
 -   ¿Tiene suficientes datos para visualizar?
 -   ¿Cuáles son las características posibles que puede usar para analizar datos sobre las visitas?
 
-Ejercicio n.° 1: Cree informes de Power BI 
+Ejercicio 1: Cree informes de Power BI 
 ===============================
 
 **Objetivo:** En este ejercicio, creará un informe de Power BI basado en datos de la base de datos de Common Data Service.
@@ -110,7 +110,7 @@ Tarea 1: Preparación de datos
     * Explore en profundidad el nivel del mes con los iconos o el comando de la cinta de opciones **Datos/Explorar en profundidad | Expandir al siguiente nivel**.
 11. Guarde el trabajo en curso presionando **Archivo | Guardar**.
 
-Ejercicio n.° 2: Crear panel de control de Power BI
+Ejercicio 2: Crear panel de control de Power BI
 ================================
 
 ## Tarea 1: Publicar informe de Power BI

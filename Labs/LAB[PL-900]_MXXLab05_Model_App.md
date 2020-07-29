@@ -52,7 +52,7 @@ Cuestiones que tener en cuenta antes de comenzar
 -   ¿Qué personalizaciones se pueden hacer en el mapa del sitio de una aplicación basada en modelos?
 
 
-Ejercicio n.° 1: Personalice vistas y formularios
+Ejercicio 1: Personalice vistas y formularios
 =======================================
 
 **Objetivo:** En este ejercicio, personalizará las vistas y formularios de las entidades creadas de manera personalizada que se utilizarán en la aplicación basada en modelo.
@@ -99,7 +99,7 @@ En esta tarea, modificaremos la vista predeterminada de Visitas activas y creare
 6.  Cambie el tamaño de las columnas individuales para que se ajusten a la información presentada.
 7.  Haga clic en **Guardar** y espere hasta que se guarden los cambios.
 8.  Haga clic en **Publicar** y espere a que se complete la publicación.
-9.  Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy. Haga clic en "x" al lado del filtro existente en el panel Propiedades para eliminar el filtro.
+9.  Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy. Haga clic en `x` al lado del filtro existente en el panel Propiedades para eliminar el filtro.
 10.  Presione el signo de cheurón al lado del botón **Guardar** (tenga cuidado de no presionar el botón) y seleccione **Guardar como**.
 11.  Cambie el nombre a **Visitas de hoy** y presione **Guardar**.
 12.  Presione el enlace **Editar filtros** en el panel Propiedades.

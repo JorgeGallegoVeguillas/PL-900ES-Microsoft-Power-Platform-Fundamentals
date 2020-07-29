@@ -42,7 +42,7 @@ Cuestiones que tener en cuenta antes de comenzar
 -   ¿Qué debería pasar si el código de visitante es inválido?
 -   ¿Qué debería pasar si el visitante llega fuera de las horas programadas? 
 
-Ejercicio n.° 1: Creación de una aplicación de lienzo
+Ejercicio 1: Creación de una aplicación de lienzo
 ===============================
 
 **Objetivo:** En este ejercicio aprenderá a crear una aplicación de lienzo.
@@ -97,7 +97,7 @@ Tarea \#2: Mostrar Información del visitante
    -   Haga clic en **Agregar campo** y seleccione los siguientes campos: Fin real, Inicio real, Generar, Fin programado, Inicio programado, Visitante
    -   Presione **Agregar**
    -   Para cambiar el orden de los campos seleccionados, arrastre las tarjetas de campo en la lista. El orden recomendado es Visitante, Generar, Inicio programado, Fin programado, Inicio real, Fin real
-   -   Seleccione la propiedad **Item** y escriba "LookUp(Visits, Code = textCode.Text)" 
+   -   Seleccione la propiedad **Item** y escriba `LookUp(Visits, Code = textCode.Text)`
 
 3.  Para conservar el trabajo en curso, haga clic en **Archivo | Guardar** y, a continuación, pulse **Guardar**
 
@@ -120,7 +120,7 @@ Tarea \#3: Agregue botones de entrada y salida
 
    * Seleccione el control **textCode**
    * Seleccione la propiedad **OnChange**
-   * Escriba la siguiente expresión "Set(Visit, LookUp(Visits, Code = textCode.Text))"
+   * Escriba la siguiente expresión `Set(Visit, LookUp(Visits, Code = textCode.Text))`
      Es la misma expresión que la anterior, excepto que esta vez guardamos los resultados en una variable global. Eso nos permite usar la variable *Visita* en toda la aplicación sin la necesidad de volver a escribir toda la expresión de búsqueda.
 
 2. Agregue botones para entrada y salida
@@ -152,10 +152,10 @@ Tarea \#3: Agregue botones de entrada y salida
 
    La expresión se puede dividir de la siguiente manera:
 
-   * "!IsBlank(Visit)" - se encontró el registro de visita
-   * "&&" - operador lógico AND
-   * El estado "Visit.Status = 'Status (Visits)'.Active" del registro es *Activo*
-   * "IsBlank(Visit.'Actual Start')" - el campo Inicio activo no contiene ningún dato
+   * `!IsBlank(Visit)` - se encontró el registro de visita
+   * `&&` - operador lógico AND
+   * El estado `Visit.Status = 'Status (Visits)'.Active` del registro es *Activo*
+   * `IsBlank(Visit.'Actual Start')` - el campo Inicio activo no contiene ningún dato
 
 4. Nos gustaría habilitar el botón **Salida** cuando el registro de visita se haya localizado (no esté en blanco), el estado del registro esté activo y la visita ya haya comenzado, es decir, cuando el valor de inicio real no esté en blanco.
 
@@ -193,18 +193,18 @@ Para realizar el proceso de entrada y salida, debemos actualizar los datos de vi
    ```
    Patch(
        Visits,
-       Visitar,
-       {'Inicio real': Now()}
+       Visit,
+       {'Actual Start': Now()}
    );
-   Actualizar([@Visitas]);
-   Establezca (Visita, Búsqueda (Visitas, Código = textCode.Text));
+   Refresh([@Visits]);
+   Set(Visit, LookUp(Visits, Code = textCode.Text));
    ```
 
    Esta expresión contiene las siguientes partes:
 
-   * `Parche (Visitas, Visita, {'Inicio real': Ahora()});`. El método *Parche* actualiza la entidad **Visitas**, el registro identificado por la variable **Visitar** (que es la visita actual). La expresión establece el valor del campo *Inicio real* a la fecha y hora actuales (*Ahora()* método).
-   * `Actualizar([@Visitas]);`. Esta expresión actualiza los registros de visitas a medida que cambian los valores subyacentes
-   * `Establecer (Visitar, Búsqueda (Visitas, Código = textCode.Text));` Esta expresión actualiza la variable *Visitar* con datos nuevos de CDS.
+   * `Patch(Visits, Visit, {'Actual Start': Now()});`. El método *Parche* actualiza la entidad **Visitas**, el registro identificado por la variable **Visitar** (que es la visita actual). La expresión establece el valor del campo *Inicio real* a la fecha y hora actuales (*Ahora()* método).
+   * `Refresh([@Visits]);`. Esta expresión actualiza los registros de visitas a medida que cambian los valores subyacentes
+   * `Set(Visit, LookUp(Visits, Code = textCode.Text));` Esta expresión actualiza la variable *Visitar* con datos nuevos de CDS.
 
 3. Seleccione el botón **Salida**.
 
@@ -212,15 +212,15 @@ Para realizar el proceso de entrada y salida, debemos actualizar los datos de vi
 
    ```
    Patch(
-       [@Visitas],
-       Visitar,
+       [@Visits],
+       Visit,
        {
-           'Fin real': Ahora(),
-           Estado: 'Estado (visitas)'.Inactivo
+           'Actual End': Now(),
+           Status: 'Status (Visits)'.Inactive
        }
    );
-   Actualizar([@Visitas]);
-   Establezca (Visita, Búsqueda (Visitas, Código = textCode.Text));
+   Refresh([@Visits]);
+   Set(Visit, LookUp(Visits, Code = textCode.Text));
    ```
 
    La única diferencia con respecto a la expresión de entrada es la configuración del campo *Estado* al valor *Inactivo*.
