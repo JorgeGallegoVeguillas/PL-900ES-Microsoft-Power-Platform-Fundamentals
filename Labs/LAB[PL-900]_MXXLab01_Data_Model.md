@@ -99,7 +99,7 @@ En esta tarea creará un nuevo entorno de trabajo si todavía no lo tiene ni lo 
 
     - Haga clic en **Crear mi base de datos**.
 
-Tarea \#2: Creación de la solución y el publicador
+Tarea n.° 2: Creación de la solución y el publicador
 ---------------------------------------
 
 1.  Creación de la solución
@@ -144,7 +144,7 @@ Tarea n.° 3: Agregar una entidad existente
     Esto añadirá la entidad Contacto a la solución recién creada. 
 21.  Su solución ahora debería tener una entidad: Contacto.
 
-Ejercicio n.° 2: Crear entidades y relaciones
+Ejercicio 2: Crear entidades y relaciones
 ========================================
 
 **Objetivo:** En este ejercicio creará entidades y agregará relaciones
@@ -165,7 +165,7 @@ Tarea n.° 1: Crear entidad de creación y campos
             comience a aprovisionarse en segundo plano y usted podrá comenzar a añadir
             otras entidades y campos.
 
-## Tarea n.°2: Crear Campos y Entidad de visita
+## Tarea n.° 2: Crear Campos y Entidad de visita
 
 La Entidad de **visita** contendrá información sobre las visitas al campus, incluido el edificio, el visitante, la hora programada y la hora real de cada visita. 
 
@@ -254,7 +254,7 @@ Tarea n.° 3: Crear relaciones
 4. Expanda la sección **Administración de datos**, luego seleccione **Asignaciones de datos**. Esto abrirá la pantalla de importar asignación en una nueva pestaña del explorador.
 5. Haga clic en **Importar**, luego haga clic en **Elegir archivo**. Localice y seleccione **CampusDataMap.xml** descargado anteriormente y luego presione **Aceptar**.
 
-## Tarea n.°2: Importar datos  
+## Tarea n.° 2: Importar datos  
 
 1. Descargue [CampusData.zip](..\..\Allfiles\Labs\CampusData.zip).
 2. Vuelva a la pestaña original con el entorno.  

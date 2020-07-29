@@ -93,7 +93,7 @@ Tarea n.° 1: Preparación de datos
 
 17. Guarde el trabajo en curso presionando **Archivo | Guardar** e ingresar un nombre de archivo de su elección.
 
-## Tarea n.°2: Cree gráficos y visualizaciones de tiempo
+## Tarea n.° 2: Cree gráficos y visualizaciones de tiempo
 
 1. Presione el icono de gráfico circular en el panel **Visualizaciones** para insertar el gráfico.
 2. Arrastre el campo **Edificio** y colóquelo en el cuadro de destino **Leyenda**.
@@ -121,7 +121,7 @@ Ejercicio 2: Crear panel de control de Power BI
 
 3. Espere hasta que se complete la publicación y haga clic en **Abrir\<nombre de su informe\>.pbix en Power BI**.
 
-## Tarea n.°2: Crear panel de control de Power BI
+## Tarea n.° 2: Crear panel de control de Power BI
 
 1. Expanda **Mi espacio de trabajo**.
 2. Seleccione el informe debajo de los títulos **Informes**.
@@ -142,7 +142,7 @@ Ejercicio 2: Crear panel de control de Power BI
 ## Tarea n.° 4: Crear vista de teléfono móvil
 
 1. Seleccione el informe de la zona de **Informes**.
-2. Dependiendo de la versión de la interfaz de usuario, seleccione ... | Vista para dispositivos móviles** o **Vista web | Vista del teléfono.
+2. Dependiendo de la versión de la interfaz de usuario, seleccione **... | Vista para dispositivos móviles** o **Vista web | Vista del teléfono**.
 3. Reorganice los iconos como desee.
 4. Seleccione... | Genere código QR.
 5. Si tiene un dispositivo móvil, escanee el código utilizando una aplicación de escáner QR disponible en plataformas iOS y Android.

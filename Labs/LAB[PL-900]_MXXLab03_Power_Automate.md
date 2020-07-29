@@ -99,7 +99,7 @@ Tarea n.° 1: Crear flujo
 
 11.  Presione **Guardar**.
 
-Tarea \#2: Valide y pruebe el flujo
+Tarea n.° 2: Valide y pruebe el flujo
 --------------------------------
 
 1.  Abra la aplicación **Personal del campus** que creó 
@@ -160,7 +160,7 @@ Tarea \#2: Valide y pruebe el flujo
     * Seleccione **Edificios** como **Nombre de la entidad**
     * Seleccione **Edificio (valor)** como **Identificación del producto**
 
-9.  Repita la secuencia de recuperación de datos anterior para **Visitante** y **Usuario**, seleccionando el nombre de la entidad relacionada y usando **Visitante (valor)** y **Propietario (valor) **como **Identificación del producto**, respectivamente
+9.  Repita la secuencia de recuperación de datos anterior para **Visitante** y **Usuario**, seleccionando el nombre de la entidad relacionada y usando **Visitante (valor)** y **Propietario (valor)** como **Identificación del producto**, respectivamente
 
 10.  Añada la acción **Enviar una notificación por correo electrónico** de conexión de **Correo**.
 
@@ -168,7 +168,7 @@ Tarea \#2: Valide y pruebe el flujo
 
 12.  Ingrese "El contacto **Nombre completo** prolongó su bienvenida". **Nombre completo** es un contenido dinámico del registro de visitas actual.
 
-13.  Escriba "Sucedió en el edificio **Nombre **", donde **Nombre** es contenido dinámico del paso **GetBuilding**
+13.  Escriba "Sucedió en el edificio **Nombre**", donde **Nombre** es contenido dinámico del paso **GetBuilding**
 
 14.  Localice **Correo electrónico principal** desde el paso **GetUser** e insértelo en el campo CC (el anfitrión de la reunión recibirá una copia del correo electrónico)
 
@@ -176,7 +176,7 @@ Tarea \#2: Valide y pruebe el flujo
 
 16.  Presione **Guardar**
 
-## Tarea n.°2: Valide y pruebe el flujo
+## Tarea n.° 2: Valide y pruebe el flujo
 
 1. Localice o cree registros de visitas que 
    1. Tengan estado activo

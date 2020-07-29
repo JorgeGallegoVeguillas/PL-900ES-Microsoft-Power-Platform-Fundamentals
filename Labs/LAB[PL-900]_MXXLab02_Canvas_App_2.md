@@ -75,7 +75,7 @@ Tarea n.° 1: Creación de una aplicación de lienzo
     3.  Seleccione **Visitas**
 4.  Para conservar el trabajo en curso, haga clic en **Archivo | Guardar** y, a continuación, pulse **Guardar**
 
-Tarea \#2: Mostrar Información del visitante
+Tarea n.° 2: Mostrar Información del visitante
 --------------------------------
 
 1.  Agregar cuadro de búsqueda
@@ -113,7 +113,7 @@ Tarea \#2: Mostrar Información del visitante
 5.  Presione **ESC** para salir de la aplicación en ejecución
 
 
-Tarea \#3: Agregue botones de entrada y salida
+Tarea n.° 3: Agregue botones de entrada y salida
 ---------------------------------------
 
 1. Guarde los resultados de búsqueda en una variable para reutilizar en el control
@@ -125,7 +125,7 @@ Tarea \#3: Agregue botones de entrada y salida
 
 2. Agregue botones para entrada y salida
    
-1. Seleccione la pestaña **Insertar**
+   1. Seleccione la pestaña **Insertar**
    2. Haga clic en **Botón**
    3. Cambie la propiedad **Text** del botón a **"Entrada"**
    4. Cambie el nombre del botón a **CheckInButton**
@@ -242,7 +242,7 @@ Para realizar el proceso de entrada y salida, debemos actualizar los datos de vi
 
 9. Presione **ESC** para salir de la aplicación en ejecución
 
-Tarea \#5: Agregar indicadores visuales
+Tarea n.° 5: Agregar indicadores visuales
 --------------------------------------
 
 La usabilidad de una aplicación móvil mejora significativamente cuando, además de la información de texto, se proporcionan los indicadores visuales. En esta tarea agregaremos un icono que indica si un visitante puede registrarse o no.
@@ -269,7 +269,7 @@ La usabilidad de una aplicación móvil mejora significativamente cuando, ademá
 7. Encuentre un valor de código diferente que no se haya usado antes. Puede ejecutar la aplicación creada previamente **Personal del campus** para crear nuevos registros de visitas. Compruebe que el icono muestre un emoji sonriente.
 8. Presione **ESC** para salir de la aplicación en ejecución
 
-## Tarea #6: Publique la aplicación
+## Tarea n.° 6: Publique la aplicación
 
 1. Seleccione la aplicación **Seguridad del campus**, haga clic en **Editar**
 2. Seleccione **Archivo | Publicar** 

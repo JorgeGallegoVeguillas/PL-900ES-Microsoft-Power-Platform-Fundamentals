@@ -103,7 +103,7 @@ Tarea n.° 1: Crear flujo
 
 11.  Presione **Guardar**.
 
-Tarea \#2: Valide y pruebe el flujo
+Tarea n.°2: Valide y pruebe el flujo
 --------------------------------
 
 1.  Abra la aplicación **Personal del campus** que creó 
@@ -180,7 +180,7 @@ Tarea \#2: Valide y pruebe el flujo
 
 16.  Presione **Guardar**.
 
-## Tarea n.°2: Valide y pruebe el flujo
+## Tarea n.° 2: Valide y pruebe el flujo
 
 1. Localice o cree registros de visitas que 
    1. Tengan estado activo

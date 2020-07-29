@@ -77,7 +77,7 @@ Tarea n.° 1: Creación de una aplicación de lienzo
     4.  Seleccione **Visitas** y espere a que la entidad Visita se muestre en Orígenes de datos.
 4.  Para guardar el trabajo en curso, haga clic en **Archivo \| **Seleccione **Guardar** y, luego, pulse **Guardar**.
 
-Tarea \#2: Mostrar Información del visitante
+Tarea n.°2: Mostrar Información del visitante
 --------------------------------
 
 1.  Agregar cuadro de búsqueda
@@ -129,7 +129,7 @@ Tarea n.° 3: Agregue botones de entrada y salida
 
 2. Agregue botones para entrada y salida
    
-1. Seleccione la pestaña **Insertar**
+   1. Seleccione la pestaña **Insertar**
    2. Haga clic en **Botón**
    3. Cambie la propiedad **Texto** del botón a **"Entrada"** (puede escribir dentro de las comillas existentes)
    4. Cambie el nombre del botón a **CheckInButton** haciendo clic en el nombre del botón (Button1) en el panel derecho

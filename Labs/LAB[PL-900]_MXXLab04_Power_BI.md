@@ -91,9 +91,9 @@ Tarea 1: Preparación de datos
 
 16. Haga clic... al lado del campo **bc_scheduledstart** y seleccione **Renombrar**. Escriba **Inicio** como nombre del campo.
 
-17. Para guardar el trabajo en curso, presione **Archivo | Guardar ** e introduzca un nombre de archivo de su elección.
+17. Para guardar el trabajo en curso, presione **Archivo | Guardar** e introduzca un nombre de archivo de su elección.
 
-## Tarea n.°2: Cree gráficos y visualizaciones de tiempo
+## Tarea n.° 2: Cree gráficos y visualizaciones de tiempo
 
 1. Presione el icono de gráfico circular en el panel **Visualizaciones** para insertar el gráfico.
 2. Arrastre el campo **Edificio** y colóquelo en el cuadro de destino **Leyenda**.
@@ -113,7 +113,7 @@ Tarea 1: Preparación de datos
 Ejercicio 2: Crear panel de control de Power BI
 ================================
 
-## Tarea 1: Publicar informe de Power BI
+## Tarea n.° 1: Publicar informe de Power BI
 
 1. Presione el botón **Publicar** en la cinta.
 
@@ -121,7 +121,7 @@ Ejercicio 2: Crear panel de control de Power BI
 
 3. Espere hasta que se complete la publicación y haga clic en **Abrir\<nombre de su informe\>.pbix en Power BI**.
 
-## Tarea n.°2: Crear panel de control de Power BI
+## Tarea n.° 2: Crear panel de control de Power BI
 
 1. Expanda **Mi espacio de trabajo**.
 2. Seleccione el informe debajo de los títulos **Informes**.

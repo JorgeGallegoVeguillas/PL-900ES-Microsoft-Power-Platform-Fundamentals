@@ -71,7 +71,7 @@ En esta tarea, creará una aplicación de lienzo utilizando la plantilla de dise
     2.  Escriba el nombre de la aplicación como **Personal del campus**
     3.  Presione **Guardar**
 
-Tarea \#2: Configurar el formulario de detalles de visitas
+Tarea n.° 2: Configurar el formulario de detalles de visitas
 --------------------------------
 
 En esta tarea, configurará un formulario de detalles para ver información sobre el registro de visitas individuales
@@ -112,7 +112,7 @@ En esta tarea, configurará un formulario para editar información sobre el regi
     * Nombre, Edificio, Visitante, Inicio programado, Fin programado
 9.  Para conservar el trabajo en curso, haga clic en **Archivo | Guardar** y, a continuación, pulse **Guardar** 
 
-Tarea \#4: Configurar la galería de visitas
+Tarea n.° 4: Configurar la galería de visitas
 ---------------------------------------
 
 En esta tarea, configurará la galería pregenerada para mostrar el título, las fechas de inicio y finalización de la visita. 
@@ -198,7 +198,7 @@ Tarea n.° 1: Probar aplicación
 
     -   Vuelva a la ventana anterior y haga clic en **Listo**.
 
-## Tarea n.°2: Agregar aplicación a la solución y publicar 
+## Tarea n.° 2: Agregar aplicación a la solución y publicar 
 
 1. Abra la solución de Administración del campus.
    * Inicie sesión en <https://make.powerapps.com>

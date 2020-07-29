@@ -82,7 +82,7 @@ Tarea n.° 1: Edite el formulario de visita
 13.  Haga clic en **Atrás** en la parte superior izquierda de la pantalla. Debería estar de vuelta en la
      entidad Visita de la pestaña Forms.
 
-## Tarea \#2: Edite las vistas de visita
+## Tarea n.°2: Edite las vistas de visita
 
 En esta tarea, modificaremos la vista predeterminada de Visitas activas y crearemos una nueva vista para las visitas de hoy.
 
@@ -113,7 +113,7 @@ En esta tarea, modificaremos la vista predeterminada de Visitas activas y creare
 18.  Haga clic en **Atrás** en la parte superior izquierda de la pantalla. Debería estar de vuelta en la
      entidad Visita de la pestaña Vistas.
 
-Ejercicio n.° 2: Cree una aplicación basada en modelos
+Ejercicio 2: Cree una aplicación basada en modelos
 =============================================
 
 **Objetivo:** En este ejercicio, creará la aplicación basada en modelos, personalizará el mapa del sitio y probará la aplicación.
@@ -188,7 +188,7 @@ Tarea n.° 1: Crear una aplicación
 17.  Seleccione **Soluciones** y luego **Publicar todas las personalizaciones.**
 18.  Seleccione **Aplicaciones** y su aplicación ahora debería estar en la lista.
 
-Tarea \#2: Aplicación de prueba
+Tarea n.°2: Aplicación de prueba
 --------------------------
 
 1.  Inicie la aplicación
