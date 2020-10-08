@@ -27,7 +27,7 @@ Seguirá el siguiente esquema para diseñar la aplicación de lienzo:
 -   Conectarse a Common Data Service como un origen de datos
 -   Capturar la entrada (código de visitante) y ubicar el registro de visitante
 -   Configurar un control de visor de formularios para mostrar la información del visitante
--   Usar una vista de CDS para rellenar la galería
+-   Use una vista de Common Data Service para rellenar la galería.
 -   Manejar el proceso de entrada y salida para un visitante
 
 

@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Laboratorio: Aplicación de lienzo, parte 1'
+    title: 'Laboratorio: Aplicación de lienzo, Parte 1'
     module: 'Módulo 3: Comenzar con Power Apps'
 ---
 
 # Módulo 3: Comenzar con Power Apps
-## Laboratorio: Aplicación de lienzo, parte 1
+## Laboratorio: Aplicación de lienzo, Parte 1
 
 Escenario
 ========
