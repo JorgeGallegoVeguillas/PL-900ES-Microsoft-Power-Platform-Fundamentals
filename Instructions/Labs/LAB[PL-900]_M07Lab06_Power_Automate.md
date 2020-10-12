@@ -177,6 +177,7 @@ Tarea \#2: Valide y pruebe el flujo
     * Seleccione **Visitante (valor)** como **Id. de elemento** en el contenido dinámico.
     
 10.  Recupere los datos de propietario para el registro relacionado.
+
     * Haga clic en **Agregar una acción** dentro del bucle.
     * Busque **Actual** y seleccione el conector **Common Data Service (entorno actual)**. 
     * Seleccione la acción **Obtener un registro**.

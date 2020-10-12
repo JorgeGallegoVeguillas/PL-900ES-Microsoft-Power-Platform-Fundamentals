@@ -229,7 +229,7 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
 
 ## Tarea 3: Verificar la importación de datos
 
-1. Seleccione la solución **Administración del campus**. Si aún no la ha abierto, vaya a make.powerapps.com y haga clic en Soluciones en el panel izquierdo para buscar la solución.*
+1. Seleccione la solución **Administración del campus**. Si aún no la ha abierto, vaya a make.powerapps.com y haga clic en Soluciones en el panel izquierdo para buscar la solución.
 2. Seleccione la entidad **Visita** y, luego, seleccione la pestaña **Datos**.
 3. Haga clic **Visitas activas** en la esquina superior derecha para mostrar el selector de vistas y, luego, seleccione **Todos los campos**.
 4. Si la importación se realizó correctamente, debería ver una lista de las entradas de visitas.

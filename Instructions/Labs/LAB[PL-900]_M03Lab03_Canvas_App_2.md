@@ -75,7 +75,7 @@ Tarea n.° 1: Creación de una aplicación de lienzo
     2.  Haga clic en **Agregar datos**
     3.  Haga clic en **Ver todas las entidades**
     4.  Seleccione **Visitas** y espere a que la entidad Visita se muestre en Orígenes de datos.
-4.  Para guardar el trabajo en curso, haga clic en **Archivo \| **Seleccione **Guardar** y, luego, pulse **Guardar**.
+4.  Para guardar el trabajo en curso, haga clic en **Archivo \| Guardar** y, luego, pulse **Guardar**.
 
 Tarea n.°2: Mostrar Información del visitante
 --------------------------------
@@ -101,7 +101,7 @@ Tarea n.°2: Mostrar Información del visitante
    -   Para cambiar el orden de los campos seleccionados, arrastre las tarjetas de campo en la lista. El orden recomendado es Visitante, Generar, Inicio programado, Fin programado, Inicio real, Fin real
    -   En la pestaña Avanzado, seleccione la propiedad **Item** y escriba `LookUp(Visits, Code = textCode.Text)`
 
-3.  Para guardar el trabajo en curso, haga clic en **Archivo \| **Seleccione **guardar** y, luego, pulse **Guardar**. Haga clic en la flecha de retroceso de la esquina superior derecha (debajo de "Power Apps") para volver a la aplicación.
+3.  Para guardar el trabajo en curso, haga clic en **Archivo \| guardar** y, luego, pulse **Guardar**. Haga clic en la flecha de retroceso de la esquina superior derecha (debajo de "Power Apps") para volver a la aplicación.
 
 4. Pruebe la aplicación
 
@@ -176,7 +176,7 @@ Tarea n.° 3: Agregue botones de entrada y salida
      )
      ```
 
-5. Para guardar el trabajo en curso, haga clic en **Archivo \| **Seleccione **Guardar** y, luego, pulse **Guardar**. Haga clic en la flecha de retroceso de la esquina superior derecha (debajo de "Power Apps") para volver a la aplicación.
+5. Para guardar el trabajo en curso, haga clic en **Archivo \| Guardar** y, luego, pulse **Guardar**. Haga clic en la flecha de retroceso de la esquina superior derecha (debajo de "Power Apps") para volver a la aplicación.
 
 6. Pulse **F5** para ejecutar la aplicación. Ambos botones deben estar deshabilitados. Introduzca el valor del código que copió anteriormente y presione **Pestaña** para alejar el foco del cuadro de texto. El botón **Entrada** debería estar habilitado.
 
@@ -229,7 +229,7 @@ Para realizar el proceso de registro de entrada y salida, debemos actualizar los
 
    La única diferencia con respecto a la expresión de entrada es la configuración del campo *Estado* al valor *Inactivo*.
 
-5. Para guardar el trabajo en curso, haga clic en **Archivo \| **Seleccione **Guardar** y, luego, pulse **Guardar**.
+5. Para guardar el trabajo en curso, haga clic en **Archivo \| Guardar** y, luego, pulse **Guardar**.
 
 6. Presione **F5** para ejecutar la aplicación. Introduzca el valor del código que copió anteriormente y presione **Pestaña** para alejar el foco del cuadro de texto. El botón **Entrada** debería estar habilitado.
 
