@@ -1,75 +1,75 @@
 ---
 lab:
     title: 'Laboratorio: Power BI'
-    module: 'Módulo 5: Comenzar con Power BI'
+    module: 'MÃ³dulo 5: Comenzar con Power BI'
 ---
 
-# Módulo 5: Comience con Power BI
+# MÃ³dulo 5: Comience con Power BI
 ## Laboratorio: Power BI
 
 Escenario
 ========
 
-Bellows College es una institución educativa que tiene un campus con varios edificios. Los visitantes del campus están actualmente registrados en revistas en papel. La información no se recaba de manera coherente y no se pueden recopilar y analizar los datos sobre las visitas de todo el campus. 
+Bellows College es una instituciÃ³n educativa que tiene un campus con varios edificios. Los visitantes del campus estÃ¡n actualmente registrados en revistas en papel. La informaciÃ³n no se recaba de manera coherente y no se pueden recopilar y analizar los datos sobre las visitas de todo el campus. 
 
-La administración del campus querría modernizar el sistema de registro de visitantes de los edificios cuyo acceso esté controlado por el personal de seguridad y en los que los anfitriones deban anotar con antelación las visitas y dejar constancia de ellas.
+La administraciÃ³n del campus querrÃ­a modernizar el sistema de registro de visitantes de los edificios cuyo acceso estÃ© controlado por el personal de seguridad y en los que los anfitriones deban anotar con antelaciÃ³n las visitas y dejar constancia de ellas.
 
-A lo largo de este curso, creará aplicaciones y realizará la automatización para permitir que el personal de administración y seguridad de Bellows College administre y controle el acceso a los edificios en el campus. 
+A lo largo de este curso, crearÃ¡ aplicaciones y realizarÃ¡ la automatizaciÃ³n para permitir que el personal de administraciÃ³n y seguridad de Bellows College administre y controle el acceso a los edificios en el campus. 
 
-En este laboratorio, creará un panel de control de Power BI que visualiza datos sobre las visitas al campus.
+En este laboratorio, crearÃ¡ un panel de control de Power BI que visualiza datos sobre las visitas al campus.
 
 Pasos de alto nivel del laboratorio
 ======================
 
-Seguiremos los pasos a continuación para diseñar y crear el panel de control de Power BI:
+Seguiremos los pasos a continuaciÃ³n para diseÃ±ar y crear el panel de control de Power BI:
 
--   Conéctese al Common Data Service 
--   Transforme los datos para incluir descripciones fáciles de usar para los registros relacionados (búsquedas)
--   Cree y publique un informe con varias visualizaciones de la información de las visitas al campus.
+-   ConÃ©ctese al Common Data Service 
+-   Transforme los datos para incluir descripciones fÃ¡ciles de usar para los registros relacionados (bÃºsquedas)
+-   Cree y publique un informe con varias visualizaciones de la informaciÃ³n de las visitas al campus.
 -   Consulta de lenguaje natural del usuario para crear visualizaciones adicionales
--   Cree una vista móvil
+-   Cree una vista mÃ³vil
 
 
 ## Requisitos previos
 
-* Finalización del laboratorio 1: modelado de datos
+* FinalizaciÃ³n del laboratorio 1: modelado de datos
 
 Cuestiones que tener en cuenta antes de comenzar
 -----------------------------------
 
--   ¿Quién es la audiencia objetivo del informe?
--   ¿Cómo consumirá el informe la audiencia? ¿Dispositivo típico? ¿Ubicación?
--   ¿Tiene suficientes datos que visualizar?
--   ¿Cuáles son las características que puede usar para analizar datos sobre las visitas?
+-   Â¿QuiÃ©n es la audiencia objetivo del informe?
+-   Â¿CÃ³mo consumirÃ¡ el informe la audiencia? Â¿Dispositivo tÃ­pico? Â¿UbicaciÃ³n?
+-   Â¿Tiene suficientes datos que visualizar?
+-   Â¿CuÃ¡les son las caracterÃ­sticas que puede usar para analizar datos sobre las visitas?
 
 Ejercicio 1: Cree informes de Power BI 
 ===============================
 
-**Objetivo:** En este ejercicio, creará un informe de Power BI basado en datos de la base de datos de Common Data Service.
+**Objetivo:** En este ejercicio, crearÃ¡ un informe de Power BI basado en datos de la base de datos de Common Data Service.
 
-Tarea 1: Preparación de datos
+TareaÂ 1: PreparaciÃ³n de datos
 ---------------------------
 
-1.  Encuentre la URL de su organización
+1.  Encuentre la URL de su organizaciÃ³n
 
-    * Diríjase al Centro de administración de Power Platform en https://admin.powerplatform.com
-    * En el panel de navegación izquierdo, seleccione Entornos y, luego, abra el entorno de destino.
-    * Haga clic con el botón derecho en la **URL de entorno** en el panel **Detalles** y, luego, seleccione **Copiar dirección de vínculo**.
-2. Si no tiene instalado Power BI Desktop, vaya a https://aka.ms/pbidesktopstore para descargar e instalar la aplicación Power BI.
+    * DirÃ­jase al Centro de administraciÃ³n de PowerÂ Platform en https://admin.powerplatform.com
+    * En el panel de navegaciÃ³n izquierdo, seleccione Entornos y, luego, abra el entorno de destino.
+    * Haga clic con el botÃ³n derecho en la **URL de entorno** en el panel **Detalles** y, luego, seleccione **Copiar direcciÃ³n de vÃ­nculo**.
+2. Si no tiene instalado Power BI Desktop, vaya a https://aka.ms/pbidesktopstore para descargar e instalar la aplicaciÃ³n Power BI.
 
-3. Abra Power BI Desktop, inicie sesión si se le solicita.
+3. Abra Power BI Desktop, inicie sesiÃ³n si se le solicita.
 
 4. Seleccione **Obtener datos**.
 
 5. Seleccione **Power Platform** en la parte izquierda y, luego, seleccione **Common Data Service** y pulse **Conectar**.
 
-6. Pegue la URL de entorno que copió anteriormente en el campo **URL de servidor** y pulse **Aceptar**.
+6. Pegue la URL de entorno que copiÃ³ anteriormente en el campo **URL de servidor** y pulse **Aceptar**.
 
 7. Expanda el nodo **Entidades**, seleccione las entidades **bc_Building** y **bc_Visit**, haga clic en **Cargar**.
 
 8. Haga clic en el icono **Modelo** de la barra de herramientas vertical izquierda.
 
-9. Arrastre la columna **bc_buildingid** desde la tabla **bc_Building** y suéltela en la columna **bc_building** de la tabla **bc_Visit**. Eso creará una relación entre dos entidades que Power BI podrá usar para mostrar datos relacionados.
+9. Arrastre la columna **bc_buildingid** desde la tabla **bc_Building** y suÃ©ltela en la columna **bc_building** de la tabla **bc_Visit**. Eso crearÃ¡ una relaciÃ³n entre dos entidades que Power BI podrÃ¡ usar para mostrar datos relacionados.
 
 10. Seleccione el icono **Informe** en la barra de herramientas izquierda.
 
@@ -77,13 +77,13 @@ Tarea 1: Preparación de datos
 
 12. Haga clic en ... junto a **bc_Visits** y seleccione **Nueva columna**.
 
-13. Complete la fórmula del siguiente modo
+13. Complete la fÃ³rmula del siguiente modo
 
     ```
     Column = RELATED(bc_Building[bc_name])
     ```
 
-    y pulse ENTRAR. Eso agregará un nuevo campo con el nombre del edificio en los datos de las visitas.
+    y pulse ENTRAR. Eso agregarÃ¡ un nuevo campo con el nombre del edificio en los datos de las visitas.
 
 14. Haga clic en ... al lado del campo y seleccione **Renombrar**. Escriba **Edificio** como nombre del campo.
 
@@ -91,68 +91,68 @@ Tarea 1: Preparación de datos
 
 16. Haga clic... al lado del campo **bc_scheduledstart** y seleccione **Renombrar**. Escriba **Inicio** como nombre del campo.
 
-17. Guarde el trabajo en curso al presionar **Archivo \| Guardar** e ingresar un nombre de archivo de su elección.
+17. Guarde el trabajo en curso al presionar **Archivo \| Guardar** e ingresar un nombre de archivo de su elecciÃ³n.
 
-## Tarea n.°2: Cree gráficos y visualizaciones de tiempo
+## TareaÂ n.Â°2: Cree grÃ¡ficos y visualizaciones de tiempo
 
-1. Pulse el icono de gráfico circular en el panel **Visualizaciones** para insertarlo.
-2. Arrastre el campo **Edificio** y colóquelo en el cuadro **Leyenda**.
-3. Arrastre el campo **Visitas** y colóquelo en el cuadro de destino **Valores**.
-4. Cambie el tamaño del gráfico circular utilizando los tiradores de las esquinas para que todos los componentes del gráfico sean visibles.
-5. Haga clic en **Nuevo objeto visual** en la cinta de Power BI y, luego, seleccione el gráfico de columnas apiladas del panel **Visualizaciones**. 
-6. Arrastre el campo **Visitas** y colóquelo en el cuadro de destino **Valores**.
-7. Arrastre el campo **Comienzo** y colóquelo en el cuadro de destino **Eje**.
-8. En el panel Visualizaciones, haga clic en **x** junto a **Día** y **Trimestre** para dejar en el eje solo los totales de **Año** y **Mes**.
-9. Cambie el tamaño del gráfico como quiera con los controladores de las esquinas.
+1. Pulse el icono de grÃ¡fico circular en el panel **Visualizaciones** para insertarlo.
+2. Arrastre el campo **Edificio** y colÃ³quelo en el cuadro **Leyenda**.
+3. Arrastre el campo **Visitas** y colÃ³quelo en el cuadro de destino **Valores**.
+4. Cambie el tamaÃ±o del grÃ¡fico circular utilizando los tiradores de las esquinas para que todos los componentes del grÃ¡fico sean visibles.
+5. Haga clic en **Nuevo objeto visual** en la cinta de Power BI y, luego, seleccione el grÃ¡fico de columnas apiladas del panel **Visualizaciones**. 
+6. Arrastre el campo **Visitas** y colÃ³quelo en el cuadro de destino **Valores**.
+7. Arrastre el campo **Comienzo** y colÃ³quelo en el cuadro de destino **Eje**.
+8. En el panel Visualizaciones, haga clic en **x** junto a **DÃ­a** y **Trimestre** para dejar en el eje solo los totales de **AÃ±o** y **Mes**.
+9. Cambie el tamaÃ±o del grÃ¡fico como quiera con los controladores de las esquinas.
 10. Pruebe la interactividad del informe:
-    * Seleccione varios sectores de creación en el gráfico circular y observe los cambios en el informe de tiempos.
-    * Seleccione varias barras en el gráfico de columnas de tiempo y observe los cambios en el informe circular.
+    * Seleccione varios sectores de creaciÃ³n en el grÃ¡fico circular y observe los cambios en el informe de tiempos.
+    * Seleccione varias barras en el grÃ¡fico de columnas de tiempo y observe los cambios en el informe circular.
     * Explore en profundidad hasta al nivel del mes usando iconos o el comando de cintas **Datos y detalles \| Expandir el siguiente nivel**.
 11. Guarde el trabajo en curso al presionar **Archivo \| Guardar**.
 
-Ejercicio n.° 2: Crear panel de control de Power BI
+Ejercicio n.Â° 2: Crear panel de control de Power BI
 ================================
 
-## Tarea 1: Publicar informe de Power BI
+## TareaÂ 1: Publicar informe de Power BI
 
-1. Pulse el botón **Publicar** en la pestaña Inicio de la cinta.
+1. Pulse el botÃ³n **Publicar** en la pestaÃ±a Inicio de la cinta.
 
 2. Seleccione **Mi espacio de trabajo** como destino, luego presione **Seleccionar**.
 
-3. Espere hasta que se complete la publicación y haga clic en **Abrir\<nombre de su informe\>.pbix en Power BI**.
+3. Espere hasta que se complete la publicaciÃ³n y haga clic en **Abrir\<nombre de su informe\>.pbix en Power BI**.
 
-## Tarea n.°2: Crear panel de control de Power BI
+## TareaÂ n.Â°2: Crear panel de control de Power BI
 
-1. En la página web que se ha abierto en el paso anterior, haga clic en **Mi área de trabajo**, en la parte superior.
+1. En la pÃ¡gina web que se ha abierto en el paso anterior, haga clic en **Mi Ã¡rea de trabajo**, en la parte superior.
 2. Seleccione su **informe** de la lista de elementos.
-3. Seleccione **Anclar una página en vivo** en el menú. Según el diseño, es posible que deba presionar ... para mostrar elementos adicionales del menú.
-4. Seleccione **Nuevo tablero** en la confirmación de **Anclar al tablero**.
-5. Introduzca **Administración del campus** como un **Nombre del tablero**, presione **Anclar elemento en vivo**.
-6. Seleccione **Mi área de trabajo** en la parte superior y seleccione el panel **Administración del campus**.
-7. Pruebe la interactividad de los gráficos circulares y de barras que se muestran.
+3. Seleccione **Anclar una pÃ¡gina en vivo** en el menÃº. SegÃºn el diseÃ±o, es posible que deba presionar ... para mostrar elementos adicionales del menÃº.
+4. Seleccione **Nuevo tablero** en la confirmaciÃ³n de **Anclar al tablero**.
+5. Introduzca **AdministraciÃ³n del campus** como un **Nombre del tablero**, presione **Anclar elemento en vivo**.
+6. Seleccione **Mi Ã¡rea de trabajo** en la parte superior y seleccione el panel **AdministraciÃ³n del campus**.
+7. Pruebe la interactividad de los grÃ¡ficos circulares y de barras que se muestran.
 
-## Tarea n.° 3: Agregue visualizaciones usando lenguaje natural
+## TareaÂ n.Â° 3: Agregue visualizaciones usando lenguaje natural
 
-1. En el panel **Administración del campus**, seleccione en la parte superior **Pregunte algo sobre sus datos**.
-2. Introduzca **edificios por número de visitas** en el área de preguntas y respuestas. Se mostrará el gráfico de barras.
-3. Seleccione **Anclar visualización**.
-4. Seleccione **Tablero de instrumentos existente**, seleccione el panel de **Administración del campus**, presione **Anclar**.
-5. Pruebe el comportamiento haciendo clic en el gráfico para obtener detalles de las Preguntas y respuestas.
+1. En el panel **AdministraciÃ³n del campus**, seleccione en la parte superior **Pregunte algo sobre sus datos**.
+2. Introduzca **edificios por nÃºmero de visitas** en el Ã¡rea de preguntas y respuestas. Se mostrarÃ¡ el grÃ¡fico de barras.
+3. Seleccione **Anclar visualizaciÃ³n**.
+4. Seleccione **Tablero de instrumentos existente**, seleccione el panel de **AdministraciÃ³n del campus**, presione **Anclar**.
+5. Pruebe el comportamiento haciendo clic en el grÃ¡fico para obtener detalles de las Preguntas y respuestas.
 6. Haga clic en **Salir de Preguntas y respuestas**.
 
-## Tarea 4: Crear vista de teléfono móvil
+## TareaÂ 4: Crear vista de telÃ©fono mÃ³vil
 
-1. En el panel, seleccione ... \| Vista para dispositivos móviles.
+1. En el panel, seleccione ... \| Vista para dispositivos mÃ³viles.
 2. Reorganice los iconos como desee.
-3. Hacer clic **Vista de teléfono** en la parte superior derecha y cambie la vista a **Vista web**.
-4. Seleccione **Mi área de trabajo** en la parte superior y seleccione su **informe**.
-5. Seleccione... \| Genere código QR.
-6. Si tiene un dispositivo móvil, escanee el código utilizando una aplicación de escáner QR disponible en plataformas iOS y Android. Inicie sesión en su cuenta si se le solicita.
-7. Navegue y explore el informe en un dispositivo móvil.
+3. Hacer clic **Vista de telÃ©fono** en la parte superior derecha y cambie la vista a **Vista web**.
+4. Seleccione **Mi Ã¡rea de trabajo** en la parte superior y seleccione su **informe**.
+5. Seleccione... \| Genere cÃ³digo QR.
+6. Si tiene un dispositivo mÃ³vil, escanee el cÃ³digo utilizando una aplicaciÃ³n de escÃ¡ner QR disponible en plataformas iOS y Android. Inicie sesiÃ³n en su cuenta si se le solicita.
+7. Navegue y explore el informe en un dispositivo mÃ³vil.
 
-# Desafíos
+# DesafÃ­os
 
 * Paneles de control e informes para incluir planos del edificio y el campus
 * Informe y analice patrones y tendencias de visitas
-* Visualización sobrepasada
+* VisualizaciÃ³n sobrepasada
 * Streaming de Power BI para un procesamiento casi en tiempo real para un campus grande 
