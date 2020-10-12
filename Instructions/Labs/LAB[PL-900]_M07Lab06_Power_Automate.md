@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Laboratorio: Power Automate'
     module: 'Módulo 4: Comenzar con Power Automate'
