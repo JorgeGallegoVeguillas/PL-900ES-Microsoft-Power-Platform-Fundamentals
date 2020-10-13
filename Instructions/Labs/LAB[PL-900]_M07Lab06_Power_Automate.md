@@ -178,12 +178,12 @@ Tarea \#2: Valide y pruebe el flujo
     
 10.  Recupere los datos de propietario para el registro relacionado.
 
-    * Haga clic en **Agregar una acción** dentro del bucle.
-    * Busque **Actual** y seleccione el conector **Common Data Service (entorno actual)**. 
-    * Seleccione la acción **Obtener un registro**.
-    * Haga clic en ... junto a **Obtener un registro** y seleccione **Cambiar nombre**. Escriba **GetUser** como nombre del paso.
-    * Seleccione **Visitas** como **Nombre de entidad**.
-    * Seleccione **Propietario (Valor)** como **Id. de elemento** en el contenido dinámico.
+* Haga clic en **Agregar una acción** dentro del bucle.
+* Busque **Actual** y seleccione el conector **Common Data Service (entorno actual)**. 
+* Seleccione la acción **Obtener un registro**.
+* Haga clic en ... junto a **Obtener un registro** y seleccione **Cambiar nombre**. Escriba **GetUser** como nombre del paso.
+* Seleccione **Visitas** como **Nombre de entidad**.
+* Seleccione **Propietario (Valor)** como **Id. de elemento** en el contenido dinámico.
 
 11.  Agregue la acción **Enviar una notificación por correo electrónico** desde la conexión **Correo** mientras permanece en el bucle **Aplicar a cada uno**.
 
