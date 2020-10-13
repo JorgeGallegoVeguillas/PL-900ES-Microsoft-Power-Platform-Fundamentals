@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Laboratorio: Modelado de datos'
     module: 'Módulo 2: Introducción a Common Data Service'
