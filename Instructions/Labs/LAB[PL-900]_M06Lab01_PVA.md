@@ -133,7 +133,7 @@ En esta tarea, cambiará el saludo a uno específico para temas sobre la COVID-1
 
 4.  El tema del saludo tiene 52 frases desencadenantes, haga clic en **Ir al lienzo de creación**.
 
-5.  Vaya al primer mensaje y reemplácelo por **Hola. Soy un agente virtual**.** Puedo contarle cómo se transmite la COVID-19, cómo protegerse, cómo preparar su hogar y a su familia para la COVID-19, los síntomas, las pruebas, etc.**
+5.  Vaya al primer mensaje y reemplácelo por **Hola. Soy un agente virtual**. **Puedo contarle cómo se transmite la COVID-19, cómo protegerse, cómo preparar su hogar y a su familia para la COVID-19, los síntomas, las pruebas, etc.**
 
 6.  Haga clic en **Guardar**.
 
