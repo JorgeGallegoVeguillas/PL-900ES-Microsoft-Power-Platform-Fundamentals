@@ -54,7 +54,7 @@ Tarea 1: Instale Power BI Desktop/Prepare el servicio Power BI
 1.  Si no tiene instalado Power BI Desktop, vaya a [https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore) para descargar e instalar la aplicación Power BI.
 
 > [IMPORTANTE]
-> Si tiene problemas para instalar Power BI Desktop con Microsoft Store, pruebe con el instalador independiente que se puede descargar desde [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller).
+> Si tiene problemas para instalar Power BI Desktop con Microsoft Store, pruebe con el instalador independiente que se puede descargar desde [https://aka.ms/pbiSingleInstaller-spa](https://aka.ms/pbiSingleInstaller-spa).
 
 2. **Si instaló correctamente Power BI Desktop, vaya a [Tarea 2](#task-2-prepare-data)**. Si no tiene los permisos necesarios para instalar aplicaciones de escritorio o tiene dificultades para ejecutar o configurar Power BI Desktop, complete los siguientes pasos de la tarea y luego continúe con la [Tarea 3](#task-3-create-chart-and-time-visualizations), pero en lugar de Power BI Desktop, use el servicio Power BI en línea en [https://app.powerbi.com](https://app.powerbi.com) en todo el laboratorio. 
 
