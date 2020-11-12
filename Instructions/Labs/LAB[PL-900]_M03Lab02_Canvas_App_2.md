@@ -251,9 +251,9 @@ Para realizar el proceso de entrada y salida, debemos actualizar los datos de la
 
    Esta expresión contiene las siguientes partes:
 
-   * `Parche (Visitas, Visita, {'Inicio real': Ahora()});`. El método *Parche* actualiza la entidad **Visitas**, el registro identificado por la variable **Visitar** (que es la visita actual). La expresión establece el valor del campo *Inicio real* a la fecha y hora actuales (*Ahora()* método).
-   * `Actualizar([@Visitas]);`. Esta expresión actualiza los registros de visitas a medida que cambian los valores subyacentes
-   * `Establecer(Visitar, Búsqueda (Visitas, Código = textCode.Text));` Esta expresión actualiza la variable *Visitar* con datos nuevos de Common Data Services.
+   * `Patch(Visits, Visit, {'Actual Start': Now()});`. El método *Parche* actualiza la entidad **Visitas**, el registro identificado por la variable **Visitar** (que es la visita actual). La expresión establece el valor del campo *Inicio real* a la fecha y hora actuales (*Ahora()* método).
+   * `Refresh([@Visits]);`. Esta expresión actualiza los registros de visitas a medida que cambian los valores subyacentes
+   * `Set (Visit, LookUp (Visits, Code = textCode.Text));` Esta expresión actualiza la variable *Visitar* con datos nuevos de Common Data Services.
    
    Cuando un usuario haga clic en este botón, el inicio real de la visita se establecerá en la fecha y hora actuales y los datos se actualizarán.
 
