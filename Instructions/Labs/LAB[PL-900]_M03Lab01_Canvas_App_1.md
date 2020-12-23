@@ -4,7 +4,7 @@ lab:
     module: 'Módulo 3: Comenzar con Power Apps'
 ---
 
-# Módulo 3: Comenzar con Power Apps
+# Módulo 3: Comenzar con Power Apps
 
 ## Laboratorio: Cómo crear una aplicación de lienzo (parte 1)
 
@@ -40,8 +40,7 @@ Seguiremos el siguiente esquema para diseñar la aplicación de lienzo:
 -   Cómo reducir los registros seleccionados para mejorar el rendimiento de la aplicación y la adopción del usuario
 
 
-Ejercicio n.° 1: Creación de una aplicación de lienzo del personal
-===============================
+# Ejercicio 1: Creación de una aplicación de lienzo del personal
 
 **Objetivo:** en este ejercicio, creará una aplicación de lienzo a partir de una plantilla y, luego, la modificará para incluir los datos necesarios
 
@@ -54,7 +53,7 @@ En esta tarea, creará una aplicación de lienzo usando la plantilla de diseño 
     -   Inicie sesión en <https://make.powerapps.com>
 
     -   Seleccione su **entorno** en la parte superior derecha si aún no está configurado en
-        su entorno de Bellows College.
+        su entorno de práctica.
 
     -   Seleccione **Aplicaciones**.
 
@@ -66,13 +65,13 @@ En esta tarea, creará una aplicación de lienzo usando la plantilla de diseño 
 
 3.  Seleccione la conexión **Common Data Service** y, luego, haga clic en **Crear**.
 
-    -   Seleccione la tabla **Visitas**
+4.  Seleccione la tabla **Visitas**
 
-    -   Haga clic en **Conectar**
+5.  Haga clic en **Conectar**
 
-    -   Puede que aparezca la ventana **Bienvenido a Power Apps Studio**. Haga clic en **Omitir**.
+6.  Puede que aparezca la ventana **Bienvenido a Power Apps Studio**. Haga clic en **Omitir**.
 
-4.  Guardar aplicación
+7.  Guardar aplicación
 
     -   Haga clic en **Archivo \> Guardar**.
 
@@ -84,9 +83,9 @@ En esta tarea, creará una aplicación de lienzo usando la plantilla de diseño 
 
 En esta tarea, configurará un formulario de detalles para ver información sobre los registros de visitas individuales.
 
-1.  Seleccione la flecha Atrás en la parte superior izquierda para volver a la definición de la aplicación.
+1.  Seleccione la flecha **Atrás** en la parte superior izquierda para volver a la definición de la aplicación.
 
-2. Expanda **DetailScreen1** debajo de **Vista de árbol**
+2. Expandir **DetailScreen1** debajo de **Vista de árbol**
 
 3.  Seleccione **DetailForm1**
 
@@ -115,7 +114,7 @@ En esta tarea, configurará un formulario de detalles para ver información sobr
 8.  Reorganice los campos en el panel **Campos** arrastrando y soltando los nombres de campo hacia arriba o hacia abajo. El orden recomendado es:
     * Código, Nombre, Edificio, Visitante, Inicio programado, Final programado, Inicio real, Final real
     
-9.  Para conservar el trabajo en curso, haga clic en **Archivo** y, a continuación, pulse **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
+9.  Para conservar el trabajo en curso, haga clic en **Archivo** y luego en **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
 
 ## Tarea 3: Configurar el formulario de edición de visitas 
 
@@ -131,7 +130,7 @@ En esta tarea, configurará un formulario para editar información sobre los reg
 
 5.  Haga clic en **Agregar campo**
 
-6.  Seleccione los siguientes campos
+6.  Seleccione los siguientes campos:
 
     * Edificio 
     
@@ -151,7 +150,7 @@ En esta tarea, configurará un formulario para editar información sobre los reg
 
 ![Formulario de edición de lienzo](media/2-canvas-edit-form.png)
 
-9.  Para conservar el trabajo en curso, haga clic en **Archivo** y, a continuación, pulse **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
+9.  Para conservar el trabajo en curso, haga clic en **Archivo** y luego en **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
 
 ## Tarea 4: Configurar la galería de visitas
 
@@ -161,7 +160,7 @@ En esta tarea, configurará la galería pregenerada para mostrar el título y la
 
 2.  Seleccione **BrowseGallery1**
 
-3.  Seleccione la propiedad **TemplateSize** en el panel Propiedades.
+3.  Seleccione la propiedad **TemplateSize** en el panel Propiedades de la derecha.
 
 4.  Reemplace la expresión con lo siguiente `Min(150, BrowseGallery1.Height - 60)`. Eso asegurará suficiente espacio para información adicional.
 
@@ -169,23 +168,23 @@ En esta tarea, configurará la galería pregenerada para mostrar el título y la
 
 6.  Seleccione el campo Fecha y hora.
 
-7.  En la barra de fórmulas en la parte superior, cambie `ThisItem.'Created On'` a `ThisItem.'Scheduled Start'`.
+7.  En la barra de fórmulas en la parte superior, cambie **ThisItem.'Created On'**a `ThisItem.'Scheduled Start'`.
 
 8.  Seleccione el campo de nuevo
 
-9.  Presione `CTRL-C` y, luego, `CTRL-V` para crear una copia del campo.
+9.  Presione **CTRL-C** y, luego, **CTRL-V** para crear una copia del campo.
 
 10.  Con el ratón o el teclado, mueva el control copiado hacia abajo y alinéelo con los otros controles de la galería, debajo del otro campo Fecha y hora.
 
-11.  En la barra de fórmulas en la parte superior, cambie `ThisItem.'Inicio programado'` a `ThisItem.'Finalización programada'`.
+11.  En la barra de fórmulas en la parte superior, cambie **ThisItem.'Scheduled Start'** a `ThisItem.'Scheduled End'`.
 
-12.  Para conservar el trabajo en curso, haga clic en **Archivo** y, a continuación, pulse **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
+12.  Para conservar el trabajo en curso, haga clic en **Archivo** y luego en **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
 
 ## Tarea 5: Agregar filtros de fecha
 
 Debido a que el número de visitas crece continuamente, los usuarios necesitan una función para filtrar la galería de visitas. Por ejemplo, el usuario puede querer ver solo las visitas futuras. En esta tarea, agregará la capacidad de mostrar visitas solo después de una fecha seleccionada por el usuario.
 
-1. Seleccione **ExaminarPantalla1** para asegurarse de que ExaminarGalería1 no esté seleccionado.
+1. Seleccione **BrowseScreen1**
 
 2. Seleccione el menú **Insertar** en la parte superior.
 
@@ -197,11 +196,11 @@ Debido a que el número de visitas crece continuamente, los usuarios necesitan u
 
 6. Cambie el tamaño y mueva el control de la galería para que se encuentre debajo del selector de fecha y cubra la pantalla. Puede hacer esto haciendo clic en el icono de cambio de tamaño en el centro superior del control de la galería y cambiando el tamaño del control para que comience después del selector de fecha.
 
-7. Mientras sigue seleccionando **ExaminarGalería1**, haga clic en la pestaña **Avanzado** del panel Propiedades.
+7. Con **ExaminarGalería1** seleccionado, haga clic en la pestaña **Avanzado** del panel Propiedades.
 
 8. Busque la propiedad **Items** y haga clic en el cuadro de texto.
 
-8. En la expresión, busque `[@Visits]` y reemplácelo con `Filter(Visits,'Scheduled End' >= DatePicker1.SelectedDate)`. La expresión debería tener la siguiente apariencia:
+9. En la expresión, busque **[@Visits]** y reemplácelo con `Filter(Visits,'Scheduled End' >= DatePicker1.SelectedDate)`. La expresión completa debería ser como la siguiente:
 
    ```
    SortByColumns(
@@ -214,26 +213,25 @@ Debido a que el número de visitas crece continuamente, los usuarios necesitan u
        	"bc_code","bc_name"
        ),
      "bc_code",
-     If (SortDescending1, Descending, Ascending)
+     If(SortDescending1, Descending, Ascending)
    )
    ```
    
-   Su pantalla debería tener un aspecto similar a este:
+Su pantalla debería tener un aspecto similar a este:
 
 ![Galería de filtrado de lienzo](media/2-canvas-browse.png)
 
-9. Para conservar el trabajo en curso, haga clic en **Archivo** y, a continuación, pulse **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
+10. Para conservar el trabajo en curso, haga clic en **Archivo** y luego en **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
 
 # Ejercicio n.° 2: Completar la aplicación
 
 En este ejercicio probará la aplicación y, una vez que tenga éxito, la agregará a su solución.
 
-Tarea n.° 1: Probar aplicación
---------------------------
+## Tarea 1: Probar aplicación
 
 1.  Inicie la aplicación
 
-    -   Seleccione **ExaminarPantalla1** y presione **F5**, o haga clic en el icono Reproducir en la esquina superior derecha para obtener una vista previa de la aplicación.
+    -   Seleccione **ExaminarPantalla1** y pulse **F5**, o haga clic en el icono **Reproducir** en la esquina superior derecha para obtener una vista previa de la aplicación.
     
     -   La aplicación debe cargar y mostrar una lista de visitas. 
     
@@ -241,7 +239,7 @@ Tarea n.° 1: Probar aplicación
     
     -   Seleccione una visita y compruebe que el formulario de visualización funcione correctamente
     
-    -   Regrese a la galería y presione + para crear una nueva visita. Compruebe que el formulario de edición contenga los campos obligatorios, incluidos los visitantes, el edificio y las fechas de inicio y finalización programadas.
+    -   Regrese a la galería y pulse **+** para crear una nueva visita. Compruebe que el formulario de edición contenga los campos obligatorios, incluidos los visitantes, el edificio y las fechas de inicio y finalización programadas.
     
     -   Rellene la información y envíela. Compruebe que el nuevo registro aparezca en la galería.
     
@@ -257,12 +255,11 @@ Tarea n.° 1: Probar aplicación
 
     -   Haga clic en **Publicar esta versión**.
 
-    -   Haga clic en la flecha hacia atrás para volver a la aplicación.
+    -   Haga clic en la flecha **Atrás** para volver a la aplicación.
 
     -   Cierre la ventana o pestaña del explorador **Diseñador**.
 
     -   Haga clic en **Salir** si se le solicita cuando intenta cerrar la ventana del explorador.
-
 
 ## Tarea 2: Agregar aplicación a la solución y publicar 
 

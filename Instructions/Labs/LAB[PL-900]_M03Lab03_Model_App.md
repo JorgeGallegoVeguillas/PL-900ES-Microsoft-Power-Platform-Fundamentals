@@ -4,11 +4,10 @@ lab:
     module: 'Módulo 3: Comenzar con Power Apps'
 ---
 
-# Módulo 3: Comenzar con Power Apps
+# Módulo 3: Comenzar con Power Apps
 ## Laboratorio 3: Cómo crear una aplicación basada en modelo
 
-Escenario
-========
+# Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Los visitantes del campus están actualmente registrados en revistas en papel. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus. 
 
@@ -18,8 +17,7 @@ A lo largo de este curso, creará aplicaciones y realizará la automatización p
 
 En este laboratorio, creará una aplicación impulsada por el modelo de Power Apps para permitir que el personal del campus administrativo administre los registros de visitas en todo el campus.
 
-Pasos de alto nivel del laboratorio
-======================
+# Pasos de alto nivel del laboratorio
 
 Como parte de la creación de la aplicación basada en modelo, completará lo siguiente:
 
@@ -43,8 +41,7 @@ Ambos se integrarán a la aplicación basada en modelo para una mejor experienci
 * Finalización del **Módulo 0 Laboratorio 0: Validación del entorno de laboratorio**
 * Finalización del **Módulo 2 Laboratorio 1: Introducción a Common Data Service**
 
-Cuestiones que tener en cuenta antes de comenzar
------------------------------------
+## Cuestiones que tener en cuenta antes de comenzar
 
 -   ¿Qué cambios debemos hacer para mejorar la experiencia del usuario?
 
@@ -53,13 +50,11 @@ Cuestiones que tener en cuenta antes de comenzar
 -   ¿Qué personalizaciones se pueden hacer en el mapa del sitio de una aplicación basada en modelos?
 
 
-Ejercicio n.° 1: Personalice vistas y formularios
-=======================================
+# Ejercicio 1: Personalice vistas y formularios
 
 **Objetivo:** En este ejercicio, personalizará las vistas y formularios de las entidades creadas de manera personalizada que se utilizarán en la aplicación basada en modelo.
 
-Tarea n.° 1: Edite el formulario de visita
------------------------------------
+## Tarea 1: Edite el formulario de visita
 
 1.  Regístrese en <https://make.powerapps.com> si aún no lo ha hecho.
 
@@ -73,7 +68,7 @@ Tarea n.° 1: Edite el formulario de visita
 
 6.  Seleccione la pestaña **Formularios** y seleccione para abrir el tipo de formulario **Principal**. 
 
-    -   El formulario tiene dos campos de forma predeterminada, Nombre (Campo primario) y Propietario.
+    > Por defecto, el formulario tiene dos campos: Nombre (campo principal) y Propietario.
     
 7.  Agregue los siguientes campos debajo del campo **Propietario** arrastrando los campos hasta el formulario o simplemente haciendo doble clic en los nombres de campo:
 
@@ -84,9 +79,11 @@ Tarea n.° 1: Edite el formulario de visita
     * **Inicio real**
     * **Final real** 
     
-8.  Arrastre el campo **Código** y suéltelo en el encabezado del formulario. (Es posible que deba minimizar el panel Propiedades en el lado derecho de la pantalla para ver el campo en el formulario).
+8.  Arrastre el campo **Código** y suéltelo en el encabezado del formulario. 
 
-9.  Mientras siga seleccionado en el campo Código, marque la casilla de verificación **Campo de solo lectura** en el panel Propiedades.
+    > El encabezado está en la parte superior derecha del formulario. Es posible que deba minimizar el panel Propiedades en el lado derecho de la pantalla para ver el campo en el formulario.
+
+9.  Con el campo **Código** seleccionado, marque la casilla de verificación **Campo de solo lectura** en el panel Propiedades.
 
 10.  Seleccione el campo **Propietario**. En el panel Propiedades, cambie la **Etiqueta de campo** a **Host**.
 
@@ -97,7 +94,7 @@ Tarea n.° 1: Edite el formulario de visita
 13.  Haga clic en **Atrás** en la parte superior izquierda de la pantalla. Debería estar de vuelta en la
      entidad Visita de la pestaña Forms.
 
-## Tarea \#2: Edite las vistas de visita
+## Tarea 2: Edite las vistas de visita
 
 En esta tarea, modificaremos la vista predeterminada de Visitas activas y crearemos una nueva vista para las visitas de hoy.
 
@@ -123,40 +120,35 @@ En esta tarea, modificaremos la vista predeterminada de Visitas activas y creare
 
 8.  Haga clic en **Publicar** y espere a que se complete la publicación.
 
-9.  Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy.
+Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy.
 
-10.  Haga clic en la flecha desplegable situada junto al botón **Guardar** (tenga cuidado de no presionar el botón) y seleccione **Guardar como**.
+9.  Presione el enlace **Editar filtros** en el panel Propiedades.
 
-11.  Cambie el nombre a **Visitas de hoy** y presione **Guardar**.
+10.  Haga clic en **Añadir**, seleccione **Añadir fila**.
 
-12.  Presione el enlace **Editar filtros** en el panel Propiedades.
+11.  Seleccione **Inicio programado** como campo y, luego, **Hoy** como condición en el menú desplegable. 
 
-13.  Haga clic en **Añadir**, seleccione **Añadir fila**.
+12.  Haga clic en **...** en la fila **Estado** y haga clic en **Eliminar**. 
 
-14.  Seleccione **Inicio programado** como campo y luego seleccione **Hoy** como condición. 
+13.  Presione **Aceptar** para guardar la condición. La vista ahora está filtrada para mostrar solo los registros donde la fecha de inicio programada es hoy.
 
-15.  Haga clic en **...** en la fila **Estado** y haga clic en **Eliminar**. 
+14.  Agregue los campos **Comienzo real** y **Final real** a la vista. 
 
-16.  La vista ahora está filtrada para mostrar solo los registros donde la fecha de inicio programada es hoy. Presione **Aceptar** para guardar la condición.
+    > **Nota:** Como ya no filtramos el estado de la vista, obtendremos todas las visitas de hoy, incluidas las completadas. Estos campos ayudarán a diferenciar visitas completadas y visitas en curso.
 
-15.  Agregue los campos **Comienzo real** y **Final real** a la vista. 
+15.  Haga clic en la **flecha desplegable** situada junto al botón Guardar (tenga cuidado de no presionar el botón) y seleccione **Guardar como**.
 
-        > **Nota:** Como ya no filtramos el estado de la vista, obtendremos todas las visitas de hoy, incluidas las completadas. Estos campos ayudarán a diferenciar visitas completadas y visitas en curso.
-
-16.  Haga clic en **Guardar** y espere hasta que se guarden los cambios.
+16.  Cambie el nombre a **Visitas de hoy** y presione **Guardar**.
 
 17.  Haga clic en **Publicar** y espere a que se complete la publicación.
 
-
-Ejercicio 2: Cree una aplicación basada en modelos
-=============================================
+# Ejercicio 2: Cree una aplicación basada en modelos
 
 **Objetivo:** En este ejercicio, creará la aplicación basada en modelos, personalizará el mapa del sitio y probará la aplicación.
 
 > Verá varios campos que no se abordan a medida que desarrolla su aplicación, particularmente en los pasos del mapa del sitio. Hemos tomado algunos atajos para hacer los laboratorios. En una implementación real, le daría a estos elementos nombres lógicos.
 
-Tarea 1: Crear una aplicación
-----------------------------
+## Tarea 1: Crear una aplicación
 
 1.  Abra la solución Administración del campus si aún no está en ella.
 
@@ -169,11 +161,11 @@ Tarea 1: Crear una aplicación
 
     -   Haga clic en **Nuevo**, seleccione **Aplicación** y luego **Aplicación basada en modelo**. Esta acción abrirá una nueva ventana.
     
+    -   Escriba ***Su apellido* Administración del campus** en Nombre y haga clic en **Siguiente**.
+    
     -   Seleccione la casilla **Usar solución existente para crear la aplicación**
     
-    -   Escriba **Administración del campus [su apellido]** en Nombre y haga clic en **Siguiente**.
-    
-    -   Seleccione la solución Administración del campus.
+    -   Seleccione la solución **Administración del campus**.
     
     -   Haga clic en **Listo**.
     
@@ -217,7 +209,7 @@ Tarea 1: Crear una aplicación
     
     -   Entre **Configuraciones** para **Título** en el panel **Propiedades**.
     
-    -   Mientras mantiene seleccionada el área **Configuración**, haga clic en **Agregar**.
+    -   Con el área **Configuración** seleccionada, haga clic en **Agregar**.
     
     -   Seleccione **Subárea**.
     
@@ -229,30 +221,23 @@ Tarea 1: Crear una aplicación
 
 9.  Haga clic en **Publicar** todas las personalizaciones y espere a que se complete la publicación.
 
-10.  Haga clic en **Guardar y cerrar** para cerrar el mapa de sitio.
+10.  Haga clic en **Guardar y cerrar** para cerrar el mapa de sitio. 
 
-11.  Verá que los activos de las entidades que se agregaron al mapa del sitio están
-     ahora todos en la aplicación.
+    > Verá que los activos de las entidades que se agregaron al mapa del sitio ahora están en la aplicación.
      
-12.  Haga clic en **Guardar** para guardar la aplicación.
+11.  Haga clic en **Validar** para validar los cambios realizados en la aplicación. 
 
-13.  Haga clic en **Validar** para validar los cambios realizados en la aplicación. 
-
-        > Esto mostrará algunas advertencias, pero podemos ignorarlas, ya que no hemos hecho referencia a una Vista y un Formulario específicos para las entidades, y los usuarios tendrán acceso a todas las Vistas y Formularios para las entidades **Visita** y **Edificio**.
-
-14.  Haga clic en **Publicar** para publicar la aplicación y espere a que se publique
-     para que esté completo.
+    >  Esto mostrará algunas advertencias, pero podemos ignorarlas, ya que no hemos hecho referencia a una Vista y un Formulario específicos para las entidades, y los usuarios tendrán acceso a todas las Vistas y Formularios para las entidades **Visitar** y **Edificio**.
      
-15.  Haga clic en **Guardar y cerrar** para cerrar el diseñador de la aplicación.
+14.  Haga clic en **Guardar y cerrar** para cerrar el diseñador de la aplicación.
 
-16.  Haga clic en **Listo**.
+15.  Haga clic en **Listo**.
 
-17.  Seleccione **Soluciones** y luego **Publicar todas las personalizaciones.**
+16.  Seleccione **Soluciones** y luego **Publicar todas las personalizaciones.**
 
-18.  Seleccione **Aplicaciones** y su aplicación ahora debería estar en la lista.
+17.  Seleccione **Aplicaciones** y su aplicación ahora debería estar en la lista.
 
-Tarea \#2: Aplicación de prueba
---------------------------
+## Tarea 2: Aplicación de prueba
 
 1.  Inicie la aplicación
 
@@ -296,13 +281,13 @@ Tarea \#2: Aplicación de prueba
         -   **Nombre**: `Nueva visita de prueba`
         -   **Edificio**: seleccione Edificio de Microsoft
         -   **Visitante**: seleccione John Doe
-        -   **Inicio programado**: seleccione la fecha de hoy y las 2:00 p.m. como hora de inicio
-        -   **Final programado**: seleccione la fecha de mañana y las 3:30 p.m. como hora de finalización
+        -   **Inicio programado**: seleccione la fecha de mañana y las 2:00 p.m. como hora de inicio
+        -   **Fin programado**: seleccione la fecha de mañana y las 3:30 p.m. como hora de finalización
         
     -   Haga clic en **Guardar y cerrar**. Esto creará el registro y debería poder verlo en la
         Vista de visitas activas.
         
-    -   Cambie la vista a **Visitas de hoy**. Debería poder ver la nueva visita en la vista.
+    -   Cambie la vista a **Visitas de hoy**. Ya no debería ver la nueva visita en la vista, ya que está programada para mañana.
     
 5. Puede agregar más registros de prueba.
 

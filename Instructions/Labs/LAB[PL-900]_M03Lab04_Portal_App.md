@@ -4,7 +4,7 @@ lab:
     module: 'Módulo 3: Comenzar con Power Apps'
 ---
 
-# Módulo 3: Comenzar con Power Apps
+# Módulo 3: Comenzar con Power Apps
 
 ## Laboratorio 4: Cómo crear un portal de Power Apps
 
@@ -31,83 +31,51 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
 ## Cuestiones que tener en cuenta antes de comenzar
 
-* Las aplicaciones de los portales de Power Apps siempre se inician desde una plantilla en lugar de una aplicación en blanco. Una vez que aprovisione un portal, ya tendrá páginas, menús y un tema predeterminado.
+* Las aplicaciones de los portales de Power Apps siempre se inician desde una plantilla en lugar de una aplicación en blanco. Su portal debería haberse creado en el Laboratorio 0 del Módulo 0. Una vez que aprovisione un portal, ya tendrá páginas, menús y un tema predeterminado. 
 
-# Ejercicio 1: Aprovisionar un portal de Power Apps
-
-**Objetivo:** En este ejercicio, aprovisionará un portal de Power Apps en su entorno al que podrá acceder desde cualquier lugar de la World Wide Web.
-
-## Tarea 1: Aprovisionar un portal de Power Apps
-
-1.  Cree una nueva aplicación de portal.
-
-    -   Inicie sesión en <https://make.powerapps.com>
-
-    -   Si el **Entorno** que se muestra en la parte superior derecha no es su Entorno de práctica, seleccione su Entorno.
-
-    -   Haga clic en el panel **Portal en blanco**, debajo de **Crea tu propia aplicación**.
-
-2.  Proporcione nuevos detalles del portal.
-
-    -   Escriba **Visitantes de Bellows College** como **Nombre** del portal.
-
-    -   Proporcione una URL única: **algo**.powerappsportals.com (si el nombre ya está en uso, elija uno diferente).
-
-    -   Seleccione un **Idioma** base para el portal.
-
-    -   Haga clic en **Crear**.
-
-3. El proceso de aprovisionamiento del portal se ejecutará entre 30 y 45 minutos.  Tenga paciencia.
-
-Tarea 2: Ir al portal
---------------------------------
-
-1.  Recibirá una notificación en <https://make.powerapps.com> cuando el portal haya sido aprovisionado.
-
-2.  Abra el nuevo portal.
-
-    -   Haga clic en **Aplicaciones**.
-
-    -   Busque la aplicación que tiene el **Tipo** de **Portal**.
-
-    -   Haga clic en el nombre de la aplicación.
-
-3.  Debería ser redirigido a un sitio web del portal con la página de aterrizaje con un mensaje de bienvenida.
-
-Ejercicio 2: Crear una página web de portal
-===============================
+# Ejercicio 1: Crear una página web de portal
 
 **Objetivo:** En este ejercicio, creará una nueva página web que mostrará contenido estático, así como una lista de edificios de Common Data Service.
 
-Tarea 1: Crear una página web
---------------------------------
+## Tarea 1: Ir al portal
+
+1.  Vaya a<https://make.powerapps.com>.
+
+2.  Haga clic en **Aplicaciones**.
+
+3.  Busque la aplicación que tiene el **Tipo** de **Portal**.
+
+4.  Haga clic en el nombre de la aplicación para abrir el portal.
+
+    > Esto debería redirigirle a la página de aterrizaje del sitio web de su portal, en la que habrá un mensaje de bienvenida.
+
+## Tarea 2: Crear una página web
 
 1.  Abrir portales de Power Apps Studio
 
     -   Inicie sesión en <https://make.powerapps.com> (todavía puede tener esto abierto en sus pestañas)
 
+    -   Seleccione **Aplicaciones**.
+    
     -   Busque la aplicación que tiene el **Tipo** de **Portal**.
 
-    -   Haga clic en los puntos suspensivos (**...**) y elija **Editar**
+    -   Haga clic en los puntos suspensivos (**...**) a la derecha del nombre de la aplicación del portal y seleccione **Editar**.
 
-2.  Ahora se encuentra en los portales de Power Apps Studio. Aquí es donde puede modificar y crear contenido del portal.
+Ahora se encuentra en los portales de Power Apps Studio. Aquí es donde puede modificar y crear contenido del portal.
 
-3.  Crear una nueva página.
+2.  Crear una nueva página.
 
     -   En la barra de comandos, seleccione **Nueva página.**
 
     -   Sitúe el ratón sobre **Diseños fijos** y elija **Página con título**
 
-4.  Modificar las propiedades de la página
+3.  En el panel Propiedades bajo **Mostrar**, cambie el **Nombre** de **Página nueva (1)** a `Directorio de edificios`.
 
-    -   En el panel Propiedades, en **Mostrar**, cambie el **Nombre** desde **Página nueva (1)** a **Directorio de edificios**, presione la tecla Tab (para iniciar el guardado automático)
+4.  En la **URL parcial**, cambie el valor a `directorio-de-edificios` y pulse la tecla Tabulación (para iniciar el guardado automático).
 
-    -   El título de la página ahora debería leerse **Directorio de edificios**
-
-    -   En **URL parcial**, cambie el valor a **directorio-edificio**y presione la tecla Tab (para iniciar el guardado automático)
-
-Tarea 2: Agregar contenido estático
---------------------------------
+    > El título de la página ahora debería leerse **Directorio de edificios**
+    
+## Tarea 3: Agregar contenido estático
 
 1.  Agregue una sección a la página web
 
@@ -135,20 +103,21 @@ Tarea 2: Agregar contenido estático
 
     -   En el lienzo (área que muestra la página web), seleccione la columna de la derecha
 
-    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Componentes**
+    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
 
     -   Elija **Imagen** desde el área **Componentes del portal**
 
     -   En el panel Propiedades, haga clic en **Seleccionar una imagen**. Busque y seleccione el **Producto A.png**
     
-    -   En el panel Propiedades, haga clic en el menú desplegable de la sección Formato y cambie la **Anchura** al 70 % (asegúrese de escribir el %). Puede jugar con el tamaño de la imagen hasta que quede como desee.
+    -   En el panel Propiedades, haga clic en el menú desplegable de la sección **Formato** y cambie el **Ancho** al 70 % (asegúrese de escribir el %). Puede jugar con el tamaño de la imagen hasta que quede como desee.
 
-4.  Haga clic en **Navegar por el sitio web** para ver la página hasta ahora.  Fíjese que está la opción **Directorio de edificios** en el menú principal.
+4.  Haga clic en **Navegar por el sitio web** para ver la página hasta ahora.  Fíjese que ahora en el menú principal aparece la opción **Directorio de edificios**.
 
-Tarea 3: Agregar un componente de lista
---------------------------------
+    > Es posible que deba configurar su explorador para permitir las ventanas emergentes.
 
-1.  Abrir portales de Power Apps Studio
+## Tarea 4: Agregar un componente de lista
+
+1.  Vaya a la pestaña anterior y continúe con el paso 2. Si no está disponible, siga los pasos a continuación para regresar a esta ubicación.
 
     -   Inicie sesión en <https://make.powerapps.com> (todavía puede tener esto abierto en sus pestañas)
 
@@ -156,13 +125,11 @@ Tarea 3: Agregar un componente de lista
 
     -   Haga clic en los puntos suspensivos (**...**) y elija **Editar**
     
-2.  Edite la página existente que creó anteriormente
-
     -   En el cinturón de herramientas (lado izquierdo), elija la opción **Páginas** 
 
     -   Busque y seleccione la página **Directorio de edificios** que creó anteriormente
     
-3.  Agregar un componente de lista
+2.  Agregar un componente de lista a la página Directorio de edificios
 
     -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
 
@@ -174,29 +141,29 @@ Tarea 3: Agregar un componente de lista
 
     -   Elija **Lista** desde el área **Componentes del portal** (aparecerá un componente de lista en la nueva sección)
     
-4.  Configure el componente de lista
+3.  Configure el componente de lista
 
     -   Seleccionar el componente de lista en el lienzo
 
-    -   En el panel Propiedades (lado derecho), escriba **Lista de edificios** en el campo **Nombre**
+    -   En el panel Propiedades (lado derecho), escriba `Lista de edificios` en el campo **Nombre**.
 
-    -   En el campo **Entidad**, seleccione **Edificios** de la lista desplegable.
+    -   En el campo **Entidad**, seleccione **Edificios (bc_edificio)** en la lista desplegable.
 
     -   En **Vistas**, elija **Edificios activos**
 
     -   Deje la configuración predeterminada restante
     
-5.  Haga clic en **Navegar por el sitio web** para ver la página. Debería ver la lista de Edificios de Common Data Service aparecer en la página web.
+4.  Haga clic en **Navegar por el sitio web** para ver la página. 
 
-Ejercicio 3: Cambiar el tema del portal
-===============================
+    > Debería ver la lista de Edificios de Common Data Service aparecer en la página web.
+
+# Ejercicio 2: Cambiar el tema del portal
 
 **Objetivo:** En este ejercicio, creará un nuevo tema que alterará el esquema de color de su portal. 
 
-Tarea 1: Aplicar y editar un tema
---------------------------------
+## Tarea 1: Aplicar y editar un tema
 
-1.  Abrir portales de Power Apps Studio
+1.  Vaya a la pestaña anterior y continúe con el paso 2. Si no está disponible, siga los pasos a continuación para regresar a esta ubicación.
 
     -   Inicie sesión en <https://make.powerapps.com> (todavía puede tener esto abierto en sus pestañas)
 
@@ -206,7 +173,7 @@ Tarea 1: Aplicar y editar un tema
     
 2.  Aplicar y personalizar un tema básico
 
-    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
+    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Temas**.
     
     -   Haga clic en la alternancia **Habilitar tema básico** para activar esta característica.
     
@@ -218,10 +185,7 @@ Tarea 1: Aplicar y editar un tema
     
     -   Cambiar el nombre de su tema
     
-3.  Guardar los cambios
-
-    -   En la barra de comandos, haga clic en **Sincronizar configuración**
-
+3.  En la barra de comandos, haga clic en **Sincronizar configuración**
 
 El diseño de la aplicación debería ser similar a la estructura siguiente:
 

@@ -1,14 +1,13 @@
 ---
 lab:
-    title: 'Práctica de laboratorio 7: Cómo crear un panel de información simple'
-    module: 'Módulo 5: Introducción a Power BI'
+    title: 'Laboratorio 7: Cómo crear un panel de información simple'
+    module: 'Módulo 5: Comience con Power BI'
 ---
 
-# Módulo 5: Introducción a Power BI
+# Módulo 5: Comience con Power BI
 ## Laboratorio: Cómo compilar un tablero simple
 
-Escenario
-========
+# Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Los visitantes del campus están actualmente registrados en revistas en papel. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus. 
 
@@ -18,8 +17,7 @@ A lo largo de este curso, creará aplicaciones y realizará la automatización p
 
 En este laboratorio, creará un panel de control de Power BI que visualiza datos sobre las visitas al campus.
 
-Pasos de alto nivel del laboratorio
-======================
+# Pasos de alto nivel del laboratorio
 
 Seguiremos los pasos a continuación para diseñar y crear el panel de control de Power BI:
 
@@ -35,81 +33,90 @@ Seguiremos los pasos a continuación para diseñar y crear el panel de control d
 * Finalización del **Módulo 0 Laboratorio 0: Validación del entorno de laboratorio**
 * Finalización del **Módulo 2 Laboratorio 1: Introducción a Common Data Service**
 
-Cuestiones que tener en cuenta antes de comenzar
------------------------------------
+## Cuestiones que tener en cuenta antes de comenzar
 
 -   ¿Quién es la audiencia objetivo del informe?
 -   ¿Cómo consumirá el informe la audiencia? ¿Dispositivo típico? ¿Ubicación?
 -   ¿Tiene suficientes datos para visualizar?
 -   ¿Cuáles son las posibles características que puede usar para analizar datos sobre las visitas?
 
-Ejercicio 1: Cree informes de Power BI 
-===============================
+# Ejercicio 1: Cree informes de Power BI 
 
 **Objetivo:** En este ejercicio, creará un informe de Power BI basado en datos de la base de datos de Common Data Service.
 
-Tarea 1: Instale Power BI Desktop/Prepare el servicio Power BI
----------------------------
+## Tarea 1: Instale Power BI Desktop/Prepare el servicio Power BI
 
-1.  Si no tiene instalado Power BI Desktop, vaya a [https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore) para descargar e instalar la aplicación Power BI.
+1. Siga las siguientes instrucciones para configurar Power BI: 
 
-> [IMPORTANTE]
-> Si tiene problemas para instalar Power BI Desktop con Microsoft Store, pruebe con el instalador independiente que se puede descargar desde [https://aka.ms/pbiSingleInstaller-spa](https://aka.ms/pbiSingleInstaller-spa).
+    - Si Power BI Desktop **ya** está instalado, pase a la [Tarea \2](#task-2-prepare-data).
+    
+    - Si no tiene Power BI Desktop instalado, complete el **Paso 2**.
+    
+    - Si no tiene los permisos necesarios o tiene problemas con la ejecución de Power BI Desktop, continúe con el **Paso 4**.
 
-2. **Si instaló correctamente Power BI Desktop, vaya a [Tarea 2](#task-2-prepare-data)**. Si no tiene los permisos necesarios para instalar aplicaciones de escritorio o tiene dificultades para ejecutar o configurar Power BI Desktop, complete los siguientes pasos de la tarea y luego continúe con la [Tarea 3](#task-3-create-chart-and-time-visualizations), pero en lugar de Power BI Desktop, use el servicio Power BI en línea en [https://app.powerbi.com](https://app.powerbi.com) en todo el laboratorio. 
+2. Visite [https://aka.ms/pbidesktopstore](https://aka.ms/pbidesktopstore) para descargar e instalar Power BI Desktop.
 
-3. Descargue [visits.pbix](../../Allfiles/visits.pbix) y guárdelo en su equipo.
+    > [IMPORTANTE]
+    > Si tiene problemas para instalar Power BI Desktop con Microsoft Store, pruebe con el instalador independiente que se puede descargar desde [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller).
 
-4. Vaya a [https://app.powerbi.com/](https://app.powerbi.com/) y haga clic en **Iniciar sesión**. 
+3. Si instaló Power BI Desktop correctamente, ya puede pasar a la [Tarea \2](#task-2-prepare-data). De lo contrario, continúe con el siguiente paso.
 
-5. Haga clic en **Mi área de trabajo**. 
+    > Si no tiene los permisos necesarios para instalar aplicaciones de escritorio o tiene dificultades para ejecutar o configurar Power BI Desktop, complete los pasos de la siguiente tarea.
 
-6. Cuando se presente la página **Obtener datos**, haga clic en **Omitir**. 
+4. Descargue [visits.pbix](../../Allfiles/visits.pbix) y guárdelo en su equipo.
 
-6. Expanda **+Nuevo** y seleccione **Cargar un archivo**.
+5. Vaya a [https://app.powerbi.com/](https://app.powerbi.com/) y haga clic en **Iniciar sesión**. 
 
-7. Seleccione **Archivo local**.
+6. Haga clic en **Mi área de trabajo**. 
 
-8. Busque y seleccione el archivo **visits.pbix** que ha descargado anteriormente.
+7. Cuando se presente la página **Obtener datos**, haga clic en **Omitir**. 
 
-9. Una vez completada la carga de datos, seleccione el informe de **visitas** (observe que el Tipo se establece en **Informe**).
+8. Expanda **+Nuevo** y seleccione **Cargar un archivo**.
 
-10. Haga clic en **Editar**. Si el elemento del menú **Editar** no es visible, haga clic en **...** y luego seleccione **Editar**.
+    > [IMPORTANTE]
+    > Si no ve **+Nuevo**, es posible que deba activar el nuevo aspecto de Power BI. Asegúrese de que **Nuevo aspecto** aparezca como **Activado** en la parte superior de la pantalla.
 
-11. Continúe con la [Tarea 3](#task-3-create-chart-and-time-visualizations).
+9. Seleccione **Archivo local**.
 
-Tarea 2: Preparación de datos
----------------------------
+10. Busque y seleccione el archivo **visits.pbix** que ha descargado anteriormente.
+
+11. Una vez completada la carga de datos, seleccione el informe de **visitas** (observe que el Tipo se establece en **Informe**).
+
+12. Haga clic en **Editar**. Si el elemento del menú **Editar** no es visible, haga clic en [...] y luego seleccione **Editar**.
+
+13. Ahora ya configuró el servicio Power BI para usarlo en sus laboratorios. Continúe con la [Tarea \3](#task-3-create-chart-and-time-visualizations), pero use el servicio Power BI en línea en [https://app.powerbi.com](https://app.powerbi.com) en lugar de Power BI Desktop durante el resto del laboratorio.
+
+## Tarea 2: Preparación de datos
 
 1.  Encuentre la URL de su organización
 
-    * En una pestaña nueva, vaya al Centro de administración de Power Platform en https://admin.powerplatform.com
+    * En una pestaña nueva, vaya al Centro de administración de Power Platform en <https://admin.powerplatform.com>.
     
     * En la página de navegación izquierda, seleccione Entornos y, a continuación, abra su entorno de práctica.
     
     * Haga clic con el botón derecho del mouse en la **URL de entorno** del panel **Detalles**, luego seleccione **Copiar vínculo**.
     
-2.  Abra Power BI Desktop, inicie sesión si se le solicita.
+2. Abra Power BI Desktop e inicie sesión con las credenciales que le han proporcionado si se le solicita.
 
-2. Seleccione **Obtener datos**.
+3. Seleccione **Obtener datos**.
 
-3. Seleccione **Power Platform** a la izquierda, luego seleccione **Common Data Service** y presione **Conectar**.
+4. Seleccione **Power Platform** a la izquierda, luego seleccione **Common Data Service** y presione **Conectar**.
 
-4. Pegue la URL del entorno que copió anteriormente en el campo **URL del servidor**, presione **Aceptar**.
+5. Pegue la URL del entorno que copió anteriormente en el campo **URL del servidor**, presione **Aceptar**.
 
-5. Expanda el nodo **Entidades**, seleccione las entidades **bc_Building** y **bc_Visit**, haga clic en **Cargar**.
+6. Expanda el nodo **Entidades**, seleccione las entidades **bc_Building** y **bc_Visit**, haga clic en **Cargar**.
 
-6. Haga clic en el icono **Modelo** de la barra de herramientas vertical izquierda.
+7. Haga clic en el icono **Modelo** de la barra de herramientas vertical izquierda.
 
-7. Arrastre la columna **bc_buildingid** desde la tabla **bc_Building** y suéltela en la columna **bc_building** de la tabla **bc_Visit**. Eso creará una relación entre dos entidades que Power BI podrá usar para mostrar datos relacionados.
+8. Arrastre la columna **bc_buildingid** desde la tabla **bc_Building** y suéltela en la columna **bc_building** de la tabla **bc_Visit**. Eso creará una relación entre dos entidades que Power BI podrá usar para mostrar datos relacionados.
 
-8. Seleccione el icono **Informe** en la barra de herramientas izquierda.
+9. Seleccione el icono **Informe** en la barra de herramientas izquierda.
 
-9. Expanda el nodo **bc_Visit** en el panel **Campos**.
+10. Expanda el nodo **bc_Visit** en el panel **Campos**.
 
-10. Haga clic en **...** junto a **bc_Visit** y seleccione **Nueva columna**.
+11. Haga clic en **...** junto a **bc_Visit** y seleccione **Nueva columna**.
 
-11. Complete la fórmula del siguiente modo
+12. Complete la fórmula del siguiente modo:
 
     ```
     Column = RELATED(bc_Building[bc_name])
@@ -117,13 +124,13 @@ Tarea 2: Preparación de datos
 
     y pulse ENTRAR. Eso agregará un nuevo campo con el nombre del edificio en los datos de las visitas.
 
-12. Haga clic en **...** junto al campo **Columna** que acaba de crear y seleccione **Cambiar nombre**. Escriba **Edificio** como nombre del campo.
+13. Haga clic en **...** junto al campo **Columna** que acaba de crear y seleccione **Cambiar nombre**. Escriba **Edificio** como nombre del campo.
 
-13. Haga clic en **...** al lado del campo **bc_visitid** y seleccione **Cambiar nombre**. Escriba **Visita** como nombre del campo.
+14. Haga clic en **...** al lado del campo **bc_visitid** y seleccione **Cambiar nombre**. Escriba **Visita** como nombre del campo.
 
-14. Haga clic en **...** al lado del campo **bc_scheduledstart** y seleccione **Cambiar nombre**. Escriba **Inicio** como nombre del campo.
+15. Haga clic en **...** al lado del campo **bc_scheduledstart** y seleccione **Cambiar nombre**. Escriba **Inicio** como nombre del campo.
 
-15. Guarde el trabajo en curso presionando **Archivo \| Guardar** e ingresar un nombre de archivo de su elección.
+16. Guarde el trabajo en curso presionando **Archivo \| Guardar** e ingresar un nombre de archivo de su elección.
 
 ## Tarea 3: Cree gráficos y visualizaciones de tiempo
 
@@ -151,12 +158,11 @@ Tarea 2: Preparación de datos
     
     * Haga clic en el gráfico de columnas. Presione la flecha hacia abajo para activar el modo **Explorar en profundidad** y luego presione la columna para explorar en profundidad hasta el siguiente nivel (meses). Otra forma de hacer esto es hacer clic en **Datos/Explorar \| Expanda el siguiente nivel** en la cinta.
     
-    * Seleccione varias barras en el gráfico de columnas de tiempo y observe los cambios en el informe circular.
+    * Rastree agrupando y desagrupando datos y seleccione varias barras en el gráfico de columnas de tiempo para observar los cambios en el informe circular.
     
 11. Guarde el trabajo en curso presionando **Archivo \| Guardar**.
 
-Ejercicio n.° 2: Crear panel de control de Power BI
-================================
+# Ejercicio n.° 2: Crear panel de control de Power BI
 
 ## Tarea 1: Publicar informe de Power BI
 
@@ -170,17 +176,17 @@ Ejercicio n.° 2: Crear panel de control de Power BI
 
 1. Debería tener abierto el informe de la tarea anterior.
 
-2. Seleccione **Anclar a un panel de información** en el menú. Según el diseño, es posible que deba presionar **...** para mostrar los elementos de menú adicionales.
+2. Seleccione **Anclar a un panel de información** en el menú. Según el diseño, es posible que deba presionar [...] para mostrar los elementos de menú adicionales.
 
 3. Seleccione **Nuevo tablero** en la confirmación de **Anclar al tablero**.
 
-4. Escriba **Administración de campus (su apellido)** como un **Nombre de panel de información**, presione **Anclar en directo**.
+4. Escriba ***Su apellido* Administración del campus** como un **Nombre de panel de información** y pulse **Anclar en directo**.
 
-5. Seleccione **Mi área de trabajo** en la parte superior, seleccione el panel de información **Administración de campus (su apellido)**.
+5. Seleccione **Mi área de trabajo** en la parte superior y el panel de información ***Su apellido* Administración del campus**.
 
 6. Pruebe la interactividad de los gráficos circulares y de barras que se muestran.
 
-## Tarea n.° 3: Agregue visualizaciones usando lenguaje natural
+## Tarea 3: Agregue visualizaciones usando lenguaje natural
 
 1. En el panel de información **Administración de campus**, seleccione la barra **Pregunte algo sobre sus datos** en la parte superior.
 
@@ -188,13 +194,15 @@ Ejercicio n.° 2: Crear panel de control de Power BI
 
 3. Seleccione **Anclar visualización**.
 
-4. Seleccione **Panel de información existente**, seleccione su panel **Administración de campus (su apellido)** y presione **Anclar**.
+4. Seleccione **Panel de información existente** y el panel ***Su apellido* Administración del campus** y pulse **Anclar**.
 
 5. Haga clic en **Salir de Preguntas y respuestas**.
 
-6. Navegue al panel de información **Administración de campus (su apellido)**. Debería tener un aspecto similar al siguiente:
+Se debería mostrar el panel de información ***Su apellido* Administración del campus**. Es posible que deba desplazarse hacia abajo para ver el nuevo objeto visual Preguntas y respuestas. 
 
-    ![Panel de información de Power BI](media/5-powerbi-result.png)
+Su panel de información debería tener un aspecto similar al siguiente:
+
+![Panel de información de Power BI](media/5-powerbi-result.png)
 
 ## Tarea 4: Cree una vista de teléfono móvil y comparta un informe con un código QR
 
@@ -208,9 +216,7 @@ Ejercicio n.° 2: Crear panel de control de Power BI
 
 5. Seleccione **Editar** y luego **... \| Generar código QR**.
 
-6. Si tiene un dispositivo móvil, escanee el código utilizando una aplicación de escáner de QR disponible en plataformas iOS y Android o en la aplicación de la cámara, si su teléfono la admite. Inicie sesión en su cuenta si se le pide.
-
-7. Navegue y explore el informe en un dispositivo móvil.
+6. *Opcional:* Si tiene un dispositivo móvil, escanee el código utilizando una aplicación de escáner de QR disponible en plataformas iOS y Android o en la aplicación de la cámara, si su teléfono la admite. Inicie sesión en su cuenta si se le pide. Navegue y explore el informe en un dispositivo móvil.
 
 # Desafíos
 

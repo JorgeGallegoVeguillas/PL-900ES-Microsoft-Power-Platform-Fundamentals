@@ -57,7 +57,7 @@ En este ejercicio, se suscribirá para obtener una prueba de Power Virtual Agent
 
 5. Escriba **Bot de crisis** en **Nombre** y seleccione un idioma.
 
-6. Seleccione su entorno de práctica para crear el bot y haga clic en **Crear**. Espere a que se cree el bot.
+6. Seleccione su entorno de práctica para crear el bot y haga clic en **Crear**. Espere a que se cree el bot. Haga clic en **Explorar bot** si se le solicita.
 
 7. Pruebe el bot. Escriba **Hola** en el cuadro de mensaje y haga clic en **Enviar**. El bot debería saludarle y decirle lo que puede hacer.
 
@@ -65,9 +65,9 @@ En este ejercicio, se suscribirá para obtener una prueba de Power Virtual Agent
 
 9. Seleccione **Temas**. El bot viene con algunos temas del usuario de muestra y algunos temas del sistema. El saludo predeterminado procede de los temas del sistema.
 
-10. En el próximo ejercicio, generará sus propios temas desde el sitio de P+F de los CDC. No salga de esta ventana del explorador.
+> En el próximo ejercicio, generará sus propios temas desde el sitio de P+F de los CDC. No salga de esta ventana del explorador.
 
-# Ejercicio 2: Crear temas
+# Ejercicio 2: Crear temas
 
 En este ejercicio, creará temas del sitio de P+F de los CDC.
 
@@ -83,37 +83,39 @@ En este ejercicio, creará temas del sitio de P+F de los CDC.
 
 6.  Pegue la URL que copió en el cuadro de texto **Vínculo al contenido en línea** y haga clic en **Agregar**.
 
-7.  Haga clic en **Iniciar** y espere. Puede tardar unos minutos.
+7.  Haga clic en **Iniciar** y espere. Esto puede durar unos minutos.
 
-8.  Debería obtener algunas sugerencias de temas creados para usted.
+8.  Debería obtener algunas sugerencias de temas creados para usted. Haga clic para abrir uno de los temas sugeridos.
 
-9.  Haga clic para abrir uno de los temas sugeridos.
-
-10. Debería ver la frase desencadenante y cuál será la respuesta del bot. **Haga clic en Agregar a temas.**
+9. Debería ver la frase desencadenante y cuál será la respuesta del bot. **Haga clic en Agregar a temas.**
     
-11. El tema sugerido debería agregarse a sus temas. Seleccione todos los temas sugeridos y haga clic en **Agregar a temas** (puede seleccionar todo usando el icono a la izquierda de la columna Nombre). Si recibe un mensaje de error, vuelva a intentarlo.
+10. El tema sugerido debería agregarse a sus temas. Seleccione todos los temas sugeridos y haga clic en **Agregar a temas**. 
 
-12. Una vez que se hayan agregado los temas sugeridos, seleccione la pestaña **Existente**. Debería ver los nuevos temas con su estado en Desactivado.
+    > Puede seleccionar todos los temas usando el icono a la izquierda de la columna Nombre. Si recibe un mensaje de error, vuelva a intentarlo.
 
-13. Haga clic en el interruptor de la columna **Estado** para establecerlos todos como **Activado**. Si tiene poco tiempo, puede activar los primeros diez, pero asegúrese de haber establecido "**¿Debo usar una mascarilla?**" como **Activado**.
+11. Una vez que se hayan agregado los temas sugeridos, seleccione la pestaña **Existente**. Debería ver los nuevos temas con su estado en Desactivado.
 
-14. No salga de esta ventana del explorador.
+12. Use el botón de alternancia de la columna **Estado** si quiere que algunos temas estén en modo **Activado**. 
+
+13. Anote la frase desencadenadora de uno de los temas que haya activado para poder probarlo más tarde.
+
+> No salga de esta ventana del explorador.
 
 # Ejercicio 3: Temas de prueba
 
 En esta tarea, probará los temas que ha agregado.
 
-1.  Haga clic en **Probar su bot**.
+1.  Haga clic en **Probar el bot** en la parte inferior izquierda.
 
 2.  Haga clic en **Restablecer**.
 
-3.  Escriba **¿Debería usar una mascarilla?** y haga clic en **Enviar**.
+3.  Escriba la frase desencadenadora de la tarea anterior que anotó y haga clic en **Enviar**.
 
 4.  El bot debería proporcionarle la información correcta y preguntarle si respondió a su pregunta. Haga clic en **Sí**.
 
 5.  El bot debería pedirle una valoración de cómo lo hizo. Dele una valoración excelente.
 
-6.  El bot debería preguntar si puede ayudarle con algo más. Haga clic en **No**.
+6.  El bot debería preguntar si puede ayudarle con algo más. Haga clic en **No, gracias**.
 
 7.  El bot debería concluir la sesión de chat.
 
@@ -129,11 +131,11 @@ En esta tarea, cambiará el saludo a uno específico para temas sobre la COVID-1
 
 2.  Contraiga la sección **Temas de usuario**.
 
-3.  Haga clic para abrir el tema **Saludo** de los temas del sistema.
+3.  Haga clic para abrir el tema **Saludo** de los temas del sistema. También puede usar el cuadro de búsqueda para **Buscar temas existentes**.
 
 4.  El tema del saludo tiene 52 frases desencadenantes, haga clic en **Ir al lienzo de creación**.
 
-5.  Vaya al primer mensaje y reemplácelo por **Hola. Soy un agente virtual**. **Puedo contarle cómo se transmite la COVID-19, cómo protegerse, cómo preparar su hogar y a su familia para la COVID-19, los síntomas, las pruebas, etc.**
+5.  Vaya al primer mensaje y reemplácelo por `Hola. Soy un agente virtual. Puedo contarle cómo se transmite la COVID-19, cómo protegerse, cómo preparar su hogar y a su familia para la COVID-19, los síntomas, las pruebas, etc.`
 
 6.  Haga clic en **Guardar**.
 
@@ -157,19 +159,28 @@ En este ejercicio, publicará el bot.
 
 5.  Obtendrá una lista de los canales disponibles en los que puede publicar su bot. Seleccione **Sitio web demo**.
 
-6.  Cambie el mensaje de bienvenida a **Pruebe mi bot de P+F sobre COVID-19.**
+6.  Cambie el mensaje de bienvenida a `Pruebe mi bot de P+F sobre la COVID-19`.
 
-7.  Escriba "Quién tiene mayor riesgo de contraer una enfermedad grave por COVID-19", "Qué significa una enfermedad más grave" y "Qué están haciendo los CDC respecto a la COVID-19" como iniciadores de conversación y haga clic en **Guardar**.
+7.  Escriba lo siguiente en **Iniciadores de conversación**:
+    ```
+     "¿Quién corre mayor riesgo de sufrir complicaciones graves por la COVID-19?"
+     "¿Qué significa complicaciones más graves?"
+     "¿Qué están haciendo los CDC respecto a la COVID-19?"
+    ```
+    
+8.  Haga clic en **Guardar**.
 
-8.  Copie la **URL**.
+9.  Copie la **URL**.
 
-9.  Puede compartir la URL con sus compañeros y obtener sus comentarios. Abra una nueva ventana o pestaña del explorador y navegue hasta la URL que copió. El sitio web demo debería ser como la imagen inferior.
+> Puede compartir la URL con sus compañeros y obtener sus comentarios. 
 
-10. Continúe y empiece a chatear con el bot.  
+10.  Abra una nueva ventana o pestaña del explorador y navegue hasta la URL que copió. El sitio web demo debería ser como la imagen inferior.
+
+11. Continúe y empiece a chatear con el bot.  
     
 Cuando haya terminado, su bot publicado debería tener un aspecto similar a esto:
 
 ![Sitio web demo del bot: captura de pantalla](./media/8-image1.png)
 
 # Desafíos 
-* Inserte su bot de chat en el portal de visitantes de Bellows College (más información sobre cómo hacerlo en **Agregar un bot a Power Apps** [aquí](https://docs.microsoft.com/en-us/power-virtual-agents/publication-connect-bot-to-web-channels)).
+* Inserte su bot de chat en el portal de visitantes de Bellows College (más información sobre cómo hacerlo en **Agregar un bot a Power Apps** [aquí](https://docs.microsoft.com/es-es/power-virtual-agents/publication-connect-bot-to-web-channels)).

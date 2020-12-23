@@ -49,7 +49,7 @@ Su solución contendrá varias entidades al completar todas las personalizacione
 
 * Formato de datetime para facilitar la localización
 
-# Ejercicio n.° 1: Creación de la solución
+# Ejercicio 1: Creación de la solución
 
 ## Tarea 1: Creación de la solución y el publicador
 
@@ -61,15 +61,17 @@ Su solución contendrá varias entidades al completar todas las personalizacione
 
     -   Seleccione **Soluciones** en el menú de la izquierda y haga clic en **Nueva solución**.
 
-    -   Escriba **"[Su apellido] Administración del campus"** para **Nombre para mostrar**.
+    -   Escriba **[Su apellido] Administración del campus** en **Nombre para mostrar**.
 
 2.  Cree un publicador
 
-    -   Haga clic en el menú desplegable **Anunciante** y seleccione **Anunciante**.
+    -   Haga clic en el menú desplegable **Publicador** y seleccione **Publicador**.
 
-    -   En la ventana emergente, escriba **Bellows College** en **Nombre para mostrar** y **bc** en **Prefijo**
+    -   En la ventana emergente, escriba **Bellows College** en **Nombre para mostrar**. 
+    
+    -   Escriba **bc** en **Prefijo**.
 
-    -   Haga clic en **Guardar y cerrar**. 
+    -   Haga clic en **Guardar y cerrar**.
     
     -   Haga clic en **Listo** en la ventana emergente.
 
@@ -109,12 +111,12 @@ Su solución contendrá varias entidades al completar todas las personalizacione
     
 11.  Su solución ahora debería tener una entidad: Contacto.
 
-# Ejercicio n.° 2: Crear entidades y relaciones
+# Ejercicio 2: Crear entidades y relaciones
 
 **Objetivo:** En este ejercicio creará entidades y agregará relaciones
 entre ellas.
 
-## Tarea n.° 1: Crear entidad de creación y campos
+## Tarea 1: Crear entidad de creación y campos
 
 1.  Debe mantener su explorador abierto en su solución de Administración del campus. De lo contrario, abra la solución Administración del campus siguiendo estos pasos:
 
@@ -227,7 +229,7 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
     
 8.  Haga clic en **Guardar entidad**
 
-## Tarea n.° 3: Crear relaciones
+## Tarea 3: Crear relaciones
 
 1.  Asegúrese de que todavía está viendo la entidad **Visita** de su solución de **Administración del campus**. De lo contrario, vaya hacia allí.
 
@@ -259,7 +261,7 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
 
 **Objetivo:** En este ejercicio importará datos de muestra a la base de datos de Common Data Service.
 
-## Tarea n.° 1: Importar solución
+## Tarea 1: Importar solución
 
 En esta tarea, importará una solución que contiene el flujo de Power Automate necesario para completar la importación de datos.
 
@@ -267,7 +269,7 @@ En esta tarea, importará una solución que contiene el flujo de Power Automate 
 
 2. Conéctese a <https://make.powerapps.com>.
 
-3. Seleccione su entorno de **práctica [mis iniciales]** en la parte superior derecha, si aún no está seleccionado.
+3. Seleccione su entorno ***mis iniciales* Práctica** en la parte superior derecha, si aún no está seleccionado.
 
 4. Seleccione **Soluciones** en el panel de navegación izquierdo.
 
@@ -283,7 +285,7 @@ En esta tarea, importará una solución que contiene el flujo de Power Automate 
 
 6. Presione **Siguiente**. Se le pedirá que restablezca las conexiones. 
 
-7. Expanda el desplegable **Seleccionar una conexión** y seleccione **+Nueva conexión**.
+7. Expanda el desplegable **Seleccionar una conexión** y seleccione **Nueva conexión**.
 
 8. Se abre una nueva ventana o pestaña del explorador. Seleccione **Crear** cuando se le solicite que cree una conexión de Common Data Service. Conéctese si es necesario para completar la creación de la conexión.
 
@@ -303,17 +305,21 @@ En esta tarea, importará una solución que contiene el flujo de Power Automate 
 
 2. Compruebe el **Estado** del flujo **Datos de importación**.
 
-3. Si el **Estado** es **Desactivado**, seleccione **...** junto a **Datos de importación** y luego seleccione **Activar**.
+3. Si el **Estado** está **Desactivado**, seleccione [...] junto a **Importación de datos** y, luego, seleccione **Activar**.
 
    > **Importante:** Si recibe un mensaje de error, compruebe que las entidades y los campos que creó coincidan con las instrucciones anteriores.
 
-4. Seleccione el componente **Datos de importación**. Power Automate se abrirá en una nueva pestaña. Haga clic en **Comenzar** si se muestra en una ventana emergente. 
+4. Abra el componente **Importación de datos**. Power Automate se abrirá en una nueva pestaña. 
 
-5. Haga clic en **Ejecutar** luego en **Ejecutar flujo** cuando se le solicite.
+5. Haga clic en **Comenzar** si se muestra en una ventana emergente. 
 
-6. Haga clic en **Listo**.
+6. Haga clic en **Ejecutar** luego en **Ejecutar flujo** cuando se le solicite.
 
-7. Espere hasta que la instancia de flujo complete la ejecución. Puede actualizar la tabla **Historial de ejecución de 28 días** para ver cuándo se ha ejecutado el flujo. El propósito de este flujo era generar datos de ejemplo para los próximos laboratorios. En la siguiente tarea, comprobará que la importación de datos se haya realizado correctamente. 
+7. Haga clic en **Listo**.
+
+8. Espere hasta que la instancia de flujo complete la ejecución. Puede actualizar la tabla **Historial de ejecución de 28 días** para ver cuándo se ha ejecutado el flujo. 
+
+    > El propósito de este flujo era generar datos de ejemplo para los próximos laboratorios. En la siguiente tarea, comprobará que la importación de datos se haya realizado correctamente. 
 
 ## Tarea 3: Verificar la importación de datos
 
@@ -321,13 +327,19 @@ En esta tarea, importará una solución que contiene el flujo de Power Automate 
 
 2. Haga clic para abrir la entidad **Visita**, luego seleccione la pestaña **Datos**.
 
-3. Haga clic en **Visitas activas** en la esquina superior derecha para mostrar el selector de vista, luego seleccione **Todos los campos**. Esto cambiará la vista que se está utilizando para mostrar los datos de la visita.
+3. Haga clic en **Visitas activas** en la esquina superior derecha para mostrar el selector de vista, luego seleccione **Todos los campos**. Esto cambiará la vista que se está utilizando para mostrar los datos de la visita. 
+
+    > Si no ve **Visitas activas** debido a que la resolución es más pequeña, debería ver un icono con forma de ojo en la misma ubicación.
 
     > Si la importación se realizó correctamente, debería ver una lista de las entradas de visitas.
 
-4. Haga clic en cualquier valor en la columna **Edificio** y confirme que el formulario del edificio se abra en otra ventana. Cierre esta ventana.
+4. Haga clic en cualquier valor en la columna **Edificio** y confirme que el formulario del edificio se abra en otra ventana. 
 
-5. Haga clic en cualquier valor en la columna **Visitante** (es posible que deba desplazar la vista hacia la derecha), confirme que el formulario de contacto se abra en una ventana separada. Cierre esta ventana.
+5. Cierre la ventana abierta recientemente.
+
+6. Haga clic en cualquier valor en la columna **Visitante** (es posible que deba desplazar la vista hacia la derecha), confirme que el formulario de contacto se abra en una ventana separada.
+
+7. Cierre la ventana abierta recientemente.
 
 # Desafíos
 

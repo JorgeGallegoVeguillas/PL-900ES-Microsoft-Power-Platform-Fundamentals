@@ -18,10 +18,11 @@ La administración del campus querría modernizar el sistema de registro de visi
 
 A lo largo de este curso, creará aplicaciones y realizará la automatización para permitir que el personal de administración y seguridad de Bellows College administre y controle el acceso a los edificios en el campus.
 
-En este laboratorio del Módulo 0, adquirirá un inquilino de prueba de Power Platform y accederá al centro de administración de Power Platform. En el centro de administración, crearemos un entorno individual para la configuración durante el curso.
+En este laboratorio del Módulo 0, adquirirá un inquilino de prueba de Power Platform y accederá al centro de administración de Power Platform. En el Centro de administración creará el entorno de **práctica** en el que realizará la mayor parte del trabajo de laboratorio.
 
-Ejercicio 1: Adquirir su inquilino de prueba de Power Platform 
-------------------------------------------
+## Ejercicio 1: Configuración
+
+### Tarea 1: Adquirir su inquilino de prueba de Power Platform
 
 1. Copie sus **Credenciales de Microsoft 365** del proveedor de servicios de hosting del laboratorio autorizado.
 
@@ -35,15 +36,9 @@ Ejercicio 1: Adquirir su inquilino de prueba de Power Platform
 
 6. Seleccione **Sí** para permanecer conectado.
 
+### Tarea \2: Crear un entorno
 
-Ejercicio 2: Crear su entorno 
-------------------------------------------
-
-En este ejercicio, creará su entorno de **práctica** en el que realizará la mayor parte del trabajo de laboratorio.
-
-### Tarea 1: Crear un entorno
-
-1.  Acceda a <https://admin.Powerplatform.microsoft.com> y regístrese con sus credenciales de Microsoft 365 si se le solicita nuevamente.
+1.  Acceda a <https://admin.powerplatform.microsoft.com> y inicie sesión con sus credenciales de Microsoft 365 si se le solicita de nuevo.
 
 2. Seleccione **Entornos** y haga clic en **+Nuevo**.
 
@@ -59,6 +54,30 @@ En este ejercicio, creará su entorno de **práctica** en el que realizará la m
 
 3. Su entorno de **práctica** debería mostrarse en la lista de entornos. 
 
-4. El aprovisionamiento del entorno podría tardar unos minutos. Actualice la página si es necesario. Cuando su entorno esté preparado, seleccione el de **práctica** haciendo clic en los puntos suspensivos junto a su nombre para expandir el menú desplegable y seleccione **Configuración**. 
+    > El aprovisionamiento del entorno podría tardar unos minutos. Actualice la página si es necesario.
 
-5.  Explore las diferentes áreas que le interesen en **Configuración**, pero no realice ningún cambio todavía. 
+# Ejercicio 2: Aprovisionar un portal de Power Apps
+
+**Objetivo:** El aprovisionamiento de un portal de Power Apps puede llevar algún tiempo. En este ejercicio, creará su portal de Power Apps en su entorno para que se pueda iniciar el proceso de aprovisionamiento. Usará este portal en un laboratorio posterior.
+
+## Tarea 1: Crear un portal de Power Apps
+
+1.  Inicie sesión en <https://make.powerapps.com>
+
+2.  Si el **Entorno** que se muestra en la parte superior derecha no es su Entorno de práctica, seleccione su Entorno.
+
+3.  Haga clic en el panel **Portal en blanco**, debajo de **Crea tu propia aplicación**.
+
+    > Si no ve esta opción, intente alejar la imagen.
+
+4.  Proporcione nuevos detalles del portal.
+
+    -   Escriba **Visitantes de Bellows College** como **Nombre** del portal.
+
+    -   Proporcione una URL única: **algo**.powerappsportals.com (si el nombre ya está en uso, elija uno diferente).
+
+    -   Seleccione un **Idioma** base para el portal.
+
+    -   Haga clic en **Crear**.
+
+    > El proceso de aprovisionamiento del portal se ejecutará entre 30 y 45 minutos. No tiene que esperar, ya que esto continuará mientras pasa al siguiente módulo.

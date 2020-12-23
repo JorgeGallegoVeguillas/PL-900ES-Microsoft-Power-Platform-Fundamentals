@@ -7,8 +7,7 @@ lab:
 # Módulo 4: Comenzar con Power Automate
 ## Laboratorio: Cómo crear una solución automatizada
 
-Escenario
-========
+## Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Los visitantes del campus están actualmente registrados en revistas en papel. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus. 
 
@@ -18,8 +17,7 @@ A lo largo de este curso, creará aplicaciones y realizará la automatización p
 
 En este laboratorio, creará flujos de Power Automate para automatizar varias partes de la administración del campus. 
 
-Pasos de alto nivel del laboratorio
-======================
+# Pasos de alto nivel del laboratorio
 
 Se han identificado las siguientes condiciones como requisitos que debe implementar para completar el proyecto:
 
@@ -33,19 +31,16 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
 * Aplicación Campus Staff creada en el **Módulo 3 Laboratorio 2: Cómo crear una aplicación de lienzo, parte 2** (para pruebas)
 * Contacto de Diego Cabrera creado con una dirección de correo electrónico personal en el **Módulo 3 Laboratorio 4: Cómo crear una aplicación basada en modelo** (para pruebas)
 
-Cuestiones que tener en cuenta antes de comenzar
------------------------------------
+## Cuestiones que tener en cuenta antes de comenzar
 
 -   ¿Cuál es el mecanismo de distribución más apropiado para los códigos de visitante?
 -   ¿Cómo se pueden medir las estancias prolongadas y aplicar directivas estrictas?
 
-Ejercicio 1: Crear flujo de notificación de visita
-===============================
+# Ejercicio 1: Crear flujo de notificación de visita
 
 **Objetivo:** En este ejercicio, creará un flujo de Power Automate que implementa el requisito. El visitante debe recibir un correo electrónico que incluya el código único asignado a la visita.
 
-Tarea 1: Crear flujo
----------------------------
+## Tarea 1: Crear flujo
 
 1.  Abra la solución de Administración del campus.
 
@@ -89,13 +84,13 @@ Tarea 1: Crear flujo
 
    * Si se le solicita que acepte los términos y condiciones para usar esta acción, haga clic en **Aceptar**.
    
-   * Seleccione el campo **Para** y **Correo electrónico** en la lista de contenido dinámico. Observe que se encuentra debajo del encabezado gris **Obtener visitante**. Esto significa que está seleccionando el correo electrónico relacionado con el visitante que buscó en la etapa anterior. 
+   * Seleccione el campo **Para** y **Correo electrónico** en la lista de contenido dinámico. Observe que se encuentra debajo del encabezado **Obtener visitante**. Esto significa que está seleccionando el correo electrónico relacionado con el visitante que buscó en la etapa anterior. 
 
    * Escriba **Su visita programada a Bellows College** en el campo **Asunto**.
 
    * Escriba el siguiente texto en el **cuerpo del correo electrónico**:  
         
-        > El contenido dinámico debe colocarse donde se nombran los campos entre paréntesis. Se recomienda copiar y pegar todo el texto primero y, luego, agregar contenido dinámico en los lugares correctos.*
+        > El contenido dinámico debe colocarse donde se nombran los campos entre paréntesis. Se recomienda copiar y pegar todo el texto primero y, luego, agregar contenido dinámico en los lugares correctos.
    
         ```
         Estimado/a, {First Name}:
@@ -118,8 +113,7 @@ Tarea 1: Crear flujo
 
 ![Flujo de notificación de visitante de Power Automate](media/4-power-automate-notify.png)
 
-Tarea 2: Valide y pruebe el flujo
---------------------------------
+## Tarea 2: Valide y pruebe el flujo
 
 1.  Abra una nueva pestaña en su explorador y vaya a <https://make.powerapps.com>.
 
@@ -139,7 +133,7 @@ Tarea 2: Valide y pruebe el flujo
 
 9.  Elija el **Inicio programado** y **Fechas de finalización programadas** para cualquier fecha en el futuro.
 
-10.  Pulse **Guardar**.
+10.  Pulse el icono de **marca de verificación** para guardar la nueva visita.
 
 11.  Vuelva a la pestaña anterior con el flujo que se está probando. Observe cómo se ejecuta el flujo. Si hay algún error, vuelva y compare el flujo con el ejemplo anterior. Si el correo electrónico se envía correctamente, lo recibirá en la bandeja de entrada. 
 
@@ -147,7 +141,9 @@ Tarea 2: Valide y pruebe el flujo
 
 13.  En la sección **Detalles**, observe que el **Estado** está **Habilitado**. Esto significa que el flujo se ejecutará siempre que se cree una nueva Visita, hasta que lo desactive. Cada vez que se ejecute el flujo, verá que se agrega a la lista **Historial de ejecución de 28 días**.
 
-14.  Desactive el flujo haciendo clic en **Apagar** en la barra de comandos.
+14.  Desactive el flujo haciendo clic en **Apagar** en la barra de comandos. Es posible que deba pulsar los puntos suspensivos (**...**) para ver esta opción.
+
+15.  Cierre esta ventana.
 
 # Ejercicio n.° 2: Cree un flujo de barrido de seguridad
 
@@ -184,14 +180,14 @@ Tarea 2: Valide y pruebe el flujo
    ```
    
    * Para desglosarlo:
-       * `statecode eq 0` filtra las visitas activas (donde el estado es igual a activo)
-       * `bc_actualstart ne null` restringe la búsqueda a las visitas donde el Inicio real tiene un valor, es decir, hubo un registro
-       * `bc_actualend eq null` restringe la búsqueda a las visitas donde no se realizó pago (el final real no tiene valor) 
-       * `Microsoft.Dynamics.CRM.OlderThanXMinutes (PropertyName = 'bc_scheduledend', PropertyValue = 15)` restringe las visitas donde debían completarse hace más de 15 minutos.  
+       * **statecode eq 0** filtra las visitas activas (aquellas cuyo Estado es igual a Activo).
+       * **bc_actualstart ne null** restringe la búsqueda a las visitas en las que Inicio real tenga un valor (es decir, se produjo un registro).
+       * **bc_actualend eq null** restringe la búsqueda a las visitas en las que no hubo salida (Final real no tiene valor); 
+       * **Microsoft.Dynamics.CRM.OlderThanXMinutes(PropertyName='bc_scheduledend',PropertyValue=15)** restringe las visitas que debieron completarse hace más de 15 minutos.
 
    * En esta acción, haga clic en los puntos suspensivos (**...**) y en **Cambiar nombre**. Cambie el nombre de esta acción a **“Enumerar las visitas activas que finalizaron hace más de 15 minutos”**. Esta es una buena manera de que usted y otros editores de flujo puedan comprender el propósito de la etapa sin tener que profundizar en los detalles.
 
-6.  Haga clic en **Nuevo paso**. Busque **Aplicar**, Seleccione la acción **Aplicar a cada una** 
+6.  Haga clic en **Nuevo paso**. Busque *Aplicar*, Seleccione la acción **Aplicar a cada una** 
 
 7.  Seleccione **valor** del contenido dinámico en el campo **Seleccionar una salida de las etapas anteriores**. Observe que está debajo del encabezado gris **Enumerar las visitas activas que finalizaron hace más de 15 minutos**. Esto significa que está seleccionando la lista de visitas que buscó en la etapa anterior. 
 
@@ -223,35 +219,39 @@ Tarea 2: Valide y pruebe el flujo
     
     * Haga clic en **...** junto a **Obtener un registro** y seleccione **Cambiar nombre**. Escriba **Obtener visitante** como nombre de la etapa.
     
-11.  Agregar la acción **Enviar una notificación por correo electrónico** desde la conexión **Correo**, dentro de **Aplicar a cada bucle**.
+11.  Enviar una notificación por correo electrónico
+
+     * Haga clic en **Agregar una acción** dentro de Aplicar para cada bucle. Añada la acción **Enviar una notificación por correo electrónico** de conexión de **Correo**.
 
 12.  Introduzca su dirección de correo electrónico como **Para**
 
-13.  Escriba lo siguiente en el campo **Asunto**. **Visitante (valor)** es un contenido dinámico de la etapa **Obtener visitante**.
+13.  Escriba lo siguiente en el campo **Asunto**. **Nombre completo** es un contenido dinámico del paso **Obtener visitante**.
 
-       ```
-         {Full Name} sobrepasó el tiempo de su visita.
-       ```
+   ```
+   {Full Name} sobrepasó el tiempo de su visita.
+   ```
    
 14.  Escriba lo siguiente en el campo **Cuerpo**. **Nombre** es un contenido dinámico de la etapa **Obtener edificio**.
 
-       ```
-         Se sobrepasó el tiempo de visita en el edificio {Name}.
+   ```
+   Se sobrepasó el tiempo de visita en el edificio {Name}.
          
-         Saludos.
+   Saludos.
          
-         Seguridad del campus
-       ```
+   Seguridad del campus
+   ```
 
 17.  Seleccione el nombre de flujo **Sin título** en la esquina superior izquierda y cámbiele el nombre a **Barrido de seguridad**.
 
-18. Pulse **Guardar**.
+18.  Pulse **Guardar**.
 
     El flujo debería ser algo parecido a lo siguiente:
 
 ![Parte 1 del flujo programado del barrido de seguridad](media/4-power-automate-security-sweep.png)
 
 ## Tarea 2: Valide y pruebe el flujo
+
+Su flujo comenzará a enviarle correos electrónicos (al correo electrónico que especificó al crear anteriormente el contacto de Diego Cabrera) si hay visitas que cumplan con los requisitos establecidos en el flujo.
 
 1. Compruebe que los registros de visitas:
 
@@ -261,9 +261,9 @@ Tarea 2: Valide y pruebe el flujo
    
    3. El Inicio real tenga un valor.
    
-         >**Nota**: Para ver estos datos, navegue hasta <make.powerapps.com> en una nueva pestaña. Haga clic en Soluciones en el panel izquierdo para localizar la solución. Seleccione la entidad Visita y luego seleccione la pestaña Datos. Haga clic en Visitas activas en la esquina superior derecha para mostrar el selector de vista y, después, seleccione Todos los campos.
+   > **Nota**: Para ver estos datos, vaya hasta make.powerapps.com en una nueva pestaña. Haga clic en Soluciones en el panel izquierdo para localizar la solución. Seleccione la entidad Visita y luego seleccione la pestaña Datos. Haga clic en Visitas activas en la esquina superior derecha para mostrar el selector de vista y, después, seleccione Todos los campos.
    
-2. Navegue hasta su solución y localice el flujo **Barrido de seguridad**. Haga clic en **...** y en **Edición**.
+2. Navegue hasta su solución y localice el flujo **Barrido de seguridad**. Haga clic en [...] y en **Edición**.
 
 3. Cuando se abra el flujo, haga clic en **Probar**.
 
@@ -275,7 +275,7 @@ Tarea 2: Valide y pruebe el flujo
 
 7. Expanda **Aplicar a cada uno** y luego expanda la etapa **Enviar una notificación por correo electrónico**. Compruebe los valores **Tema**, **Cuerpo del correo electrónico**.
 
-8. Desplácese hasta la solución, haga clic en **...** junto al flujo y seleccione **Apagar**. Esto es para evitar que el flujo se ejecute según una programación en el sistema de prueba.
+8. Desplácese hasta la solución, haga clic en [...] junto al flujo y seleccione **Apagar**. Esto es para evitar que el flujo se ejecute según una programación en el sistema de prueba.
 
 # Desafíos
 
