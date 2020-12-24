@@ -134,7 +134,7 @@ Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy.
 
 14.  Agregue los campos **Comienzo real** y **Final real** a la vista. 
 
-    > **Nota:** Como ya no filtramos el estado de la vista, obtendremos todas las visitas de hoy, incluidas las completadas. Estos campos ayudarán a diferenciar visitas completadas y visitas en curso.
+> **Nota:** Como ya no filtramos el estado de la vista, obtendremos todas las visitas de hoy, incluidas las completadas. Estos campos ayudarán a diferenciar visitas completadas y visitas en curso.
 
 15.  Haga clic en la **flecha desplegable** situada junto al botón Guardar (tenga cuidado de no presionar el botón) y seleccione **Guardar como**.
 

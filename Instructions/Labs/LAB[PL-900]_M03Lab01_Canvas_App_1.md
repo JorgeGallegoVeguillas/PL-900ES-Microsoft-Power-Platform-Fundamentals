@@ -168,7 +168,7 @@ En esta tarea, configurará la galería pregenerada para mostrar el título y la
 
 6.  Seleccione el campo Fecha y hora.
 
-7.  En la barra de fórmulas en la parte superior, cambie **ThisItem.'Created On'**a `ThisItem.'Scheduled Start'`.
+7.  En la barra de fórmulas en la parte superior, cambie **ThisItem.'Created On'** a `ThisItem.'Scheduled Start'`.
 
 8.  Seleccione el campo de nuevo
 
