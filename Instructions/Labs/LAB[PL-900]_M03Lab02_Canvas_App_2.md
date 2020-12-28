@@ -215,7 +215,7 @@ Nos gustaría habilitar el botón **Entrada** cuando el registro de visita se ha
 
 Nos gustaría habilitar el botón **Salida** cuando el registro de visita se haya localizado (no esté en blanco), el estado del registro esté activo y la visita ya haya comenzado, es decir, cuando el valor de inicio real no esté en blanco.
 
-3. Seleccione el botón Check Out y haga clic en la propiedad **Modo de visualización** del botón en la pestaña Propiedades
+3. Seleccione el botón Check Out y haga clic en la propiedad **DisplayMode** del botón en la pestaña Propiedades
 
 4. Escriba la siguiente expresión en la barra de funciones:
 

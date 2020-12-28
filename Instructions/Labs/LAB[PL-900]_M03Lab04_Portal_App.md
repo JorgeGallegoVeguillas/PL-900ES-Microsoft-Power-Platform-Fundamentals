@@ -177,7 +177,7 @@ Ahora se encuentra en los portales de Power Apps Studio. Aquí es donde puede mo
     
     -   Haga clic en la alternancia **Habilitar tema básico** para activar esta característica.
     
-    -   En uno de los ajustes preestablecidos, haga clic en los puntos suspensivos(**...**) y elija **Personalizar**
+    -   En uno de los ajustes preestablecidos, haga clic en los puntos suspensivos (**...**) y elija **Personalizar**
     
     -   Se ha creado una copia del tema básico. 
     

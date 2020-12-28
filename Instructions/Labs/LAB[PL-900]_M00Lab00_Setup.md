@@ -36,7 +36,7 @@ En este laboratorio del Módulo 0, adquirirá un inquilino de prueba de Power Pl
 
 6. Seleccione **Sí** para permanecer conectado.
 
-### Tarea \2: Crear un entorno
+### Tarea 2: Crear un entorno
 
 1.  Acceda a <https://admin.powerplatform.microsoft.com> y inicie sesión con sus credenciales de Microsoft 365 si se le solicita de nuevo.
 

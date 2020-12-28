@@ -48,7 +48,7 @@ Seguiremos los pasos a continuación para diseñar y crear el panel de control d
 
 1. Siga las siguientes instrucciones para configurar Power BI: 
 
-    - Si Power BI Desktop **ya** está instalado, pase a la [Tarea \2](#task-2-prepare-data).
+    - Si Power BI Desktop **ya** está instalado, pase a la [Tarea 2](#task-2-prepare-data).
     
     - Si no tiene Power BI Desktop instalado, complete el **Paso 2**.
     
@@ -59,7 +59,7 @@ Seguiremos los pasos a continuación para diseñar y crear el panel de control d
     > [IMPORTANTE]
     > Si tiene problemas para instalar Power BI Desktop con Microsoft Store, pruebe con el instalador independiente que se puede descargar desde [https://aka.ms/pbiSingleInstaller](https://aka.ms/pbiSingleInstaller).
 
-3. Si instaló Power BI Desktop correctamente, ya puede pasar a la [Tarea \2](#task-2-prepare-data). De lo contrario, continúe con el siguiente paso.
+3. Si instaló Power BI Desktop correctamente, ya puede pasar a la [Tarea 2](#task-2-prepare-data). De lo contrario, continúe con el siguiente paso.
 
     > Si no tiene los permisos necesarios para instalar aplicaciones de escritorio o tiene dificultades para ejecutar o configurar Power BI Desktop, complete los pasos de la siguiente tarea.
 
@@ -84,7 +84,7 @@ Seguiremos los pasos a continuación para diseñar y crear el panel de control d
 
 12. Haga clic en **Editar**. Si el elemento del menú **Editar** no es visible, haga clic en [...] y luego seleccione **Editar**.
 
-13. Ahora ya configuró el servicio Power BI para usarlo en sus laboratorios. Continúe con la [Tarea \3](#task-3-create-chart-and-time-visualizations), pero use el servicio Power BI en línea en [https://app.powerbi.com](https://app.powerbi.com) en lugar de Power BI Desktop durante el resto del laboratorio.
+13. Ahora ya configuró el servicio Power BI para usarlo en sus laboratorios. Continúe con la [Tarea 3](#task-3-create-chart-and-time-visualizations), pero use el servicio Power BI en línea en [https://app.powerbi.com](https://app.powerbi.com) en lugar de Power BI Desktop durante el resto del laboratorio.
 
 ## Tarea 2: Preparación de datos
 
