@@ -227,15 +227,15 @@ Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy.
      
 11.  Haga clic en **Validar** para validar los cambios realizados en la aplicación. 
 
-    >  Esto mostrará algunas advertencias, pero podemos ignorarlas, ya que no hemos hecho referencia a una Vista y un Formulario específicos para las entidades, y los usuarios tendrán acceso a todas las Vistas y Formularios para las entidades **Visitar** y **Edificio**.
+>  Esto mostrará algunas advertencias, pero podemos ignorarlas, ya que no hemos hecho referencia a una Vista y un Formulario específicos para las entidades, y los usuarios tendrán acceso a todas las Vistas y Formularios para las entidades **Visitar** y **Edificio**.
      
-14.  Haga clic en **Guardar y cerrar** para cerrar el diseñador de la aplicación.
+12.  Haga clic en **Guardar y cerrar** para cerrar el diseñador de la aplicación.
 
-15.  Haga clic en **Listo**.
+13.  Haga clic en **Listo**.
 
-16.  Seleccione **Soluciones** y luego **Publicar todas las personalizaciones.**
+14.  Seleccione **Soluciones** y luego **Publicar todas las personalizaciones.**
 
-17.  Seleccione **Aplicaciones** y su aplicación ahora debería estar en la lista.
+15.  Seleccione **Aplicaciones** y su aplicación ahora debería estar en la lista.
 
 ## Tarea 2: Aplicación de prueba
 
