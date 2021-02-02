@@ -7,6 +7,12 @@ lab:
 # Módulo 2: Introducción a Common Data Service
 ## Laboratorio: Modelado de datos
 
+### Aviso importante (noviembre de 2020):
+Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, ahora se utiliza el término “tabla” para referirse a una entidad. Los campos y registros de las bases de datos de Dataverse ahora se llaman columnas y filas.
+
+Aunque se sigue actualizando la experiencia del usuario de las aplicaciones, algunas referencias a la terminología de Microsoft Dataverse, como entidad (**tabla**), campo (**columna**) y registro (**fila**) pueden estar desactualizadas. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible. 
+
+Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/es-es/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 # Escenario
 

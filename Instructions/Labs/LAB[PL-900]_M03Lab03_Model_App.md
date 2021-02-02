@@ -7,6 +7,13 @@ lab:
 # Módulo 3: Comenzar con Power Apps
 ## Laboratorio 3: Cómo crear una aplicación basada en modelo
 
+### Aviso importante (noviembre de 2020):
+Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, ahora se utiliza el término “tabla” para referirse a una entidad. Los campos y registros de las bases de datos de Dataverse ahora se llaman columnas y filas.
+
+Aunque se sigue actualizando la experiencia del usuario de las aplicaciones, algunas referencias a la terminología de Microsoft Dataverse, como entidad (**tabla**), campo (**columna**) y registro (**fila**) pueden estar desactualizadas. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible. 
+
+Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/es-es/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
+
 # Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Los visitantes del campus están actualmente registrados en revistas en papel. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus. 
