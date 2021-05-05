@@ -100,16 +100,16 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
         > El contenido dinámico debe colocarse donde se nombran los campos entre paréntesis. Se recomienda copiar y pegar todo el texto primero y, luego, agregar el contenido dinámico en los lugares correctos.
    
         ```
-        Estimado/a {First Name}:
+        Dear {First Name},
 
-        Actualmente tiene programada una visita a Bellows Campus desde las {Scheduled Start} hasta las {Scheduled End}.
+        You are currently scheduled to visit Bellows Campus from {Scheduled Start} until {Scheduled End}.
 
-        Su código de seguridad es {Code}; no lo comparta. Necesitará este código durante su visita.
+        Your security code is {Code}, please do not share it. You will be required to produce this code during your visit.
 
-        Saludos cordiales,
+        Best regards,
 
-        La administración del campus
-        Bellows College
+        Campus Administration
+        Bellows College
         ```
    
 10.  Seleccione el nombre del flujo **Sin título** en la parte superior y cambie el nombre a `Notificación de visita`.
@@ -235,17 +235,17 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
 13.  Escriba lo siguiente en el campo **Asunto**. **Nombre completo** es un contenido dinámico del paso **Obtener visitante**.
 
    ```
-   {Full Name} sobrepasó el tiempo de su visita.
+   {Full Name} overstayed their welcome
    ```
    
 14.  Escriba lo siguiente en el campo **Cuerpo**. **Nombre** es un contenido dinámico del paso **Obtener edificio**.
 
    ```
-   Se sobrepasó el tiempo de visita en el edificio {Name}.
+   There is an overstay in building {Name}.
          
-   Saludos,
+   Best,
          
-   Seguridad del campus
+   Campus Security
    ```
 
 17.  Seleccione el nombre de flujo **Sin título** en la esquina superior izquierda y cambie el nombre a **Barrido de seguridad**.

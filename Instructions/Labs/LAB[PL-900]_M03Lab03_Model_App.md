@@ -140,7 +140,7 @@ Ahora clonaremos la vista para crear una nueva para las visitas de hoy.
 
 14.  Agregue los campos **Inicio real** y **Fin real** a la vista. 
 
-    > **Nota:** Como ya no filtramos el estado de la vista, obtendremos todas las visitas de hoy, incluidas las completadas. Estos campos ayudarán a diferenciar las visitas completadas de las visitas en curso.
+    >**Nota:** Como ya no filtramos el estado de la vista, obtendremos todas las visitas de hoy, incluidas las completadas. Estos campos ayudarán a diferenciar las visitas completadas de las visitas en curso.
 
 15.  Haga clic en la **flecha desplegable** situada junto al botón Guardar (tenga cuidado de no presionar el botón) y seleccione **Guardar como**.
 
@@ -237,7 +237,7 @@ Ahora clonaremos la vista para crear una nueva para las visitas de hoy.
 
 12.  Haga clic en **Validar** para validar los cambios realizados en la aplicación. 
 
-    >  Esto hará que se muestren algunas advertencias, pero podemos ignorarlas, ya que no hemos hecho referencia a una Vista y un Formulario específicos para las entidades, y los usuarios tendrán acceso a todas las Vistas y Formularios para las entidades **Visita** y **Edificio**.
+    >  Esto hará que se muestren algunas advertencias, pero podemos ignorarlas, ya que no hemos hecho referencia a una Vista y un Formulario específicos para las entidades, y los usuarios tendrán acceso a todas las Vistas y Formularios para las entidades **Visita**y**Edificio**.
      
 13. Haga clic en **Publicar**.
 

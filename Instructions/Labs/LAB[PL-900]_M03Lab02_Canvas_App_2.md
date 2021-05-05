@@ -64,7 +64,7 @@ Seguirá el siguiente esquema para diseñar la aplicación de lienzo:
     
 2.  Cree una nueva aplicación de lienzo
 
-    -   Haga clic en **Nuevo** y seleccione **Aplicación \**.**| Aplicación de lienzo \| Factor de forma del teléfono**.
+    -   Haga clic en **Nuevo** y seleccione **Aplicación. \| Aplicación de lienzo \| Factor de forma del teléfono**.
         Esto abrirá el Editor de aplicaciones en una Nueva ventana.
         
     -   Haga clic en **Omitir** si se muestra con el cuadro de diálogo Bienvenido a Power Apps Studio.
