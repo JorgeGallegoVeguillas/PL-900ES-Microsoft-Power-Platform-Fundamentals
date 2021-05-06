@@ -78,9 +78,9 @@ Deberá seguir el siguiente esquema para diseñar el portal de Power Apps:
 
     -   Coloque el ratón sobre **Diseños fijos** y seleccione **Página con título**.
 
-3.  En el panel Propiedades, bajo **Mostrar**, cambie el **Nombre** de **Página nueva (1)** a `Directorio de edificios`.
+3.  En el panel Propiedades, bajo **Mostrar**, cambie el **Nombre** de **Página nueva (1)** a `Building Directory`.
 
-4.  En la **URL parcial**, cambie el valor a `directorio-de-edificios` y pulse la tecla Tabulación para iniciar el guardado automático.
+4.  En la **URL parcial**, cambie el valor a `building-directory` y pulse la tecla Tabulación para iniciar el guardado automático.
 
     > El título de la página ahora debería ser **Directorio de edificios**.
     
@@ -104,7 +104,7 @@ Deberá seguir el siguiente esquema para diseñar el portal de Power Apps:
 
     -   En la nueva área de texto, escriba lo siguiente:
           ```
-          Lo siguiente es el directorio de edificios.
+          The following is the building directory.
           ```
     -   Seleccione el cuadro de texto sobre el que acaba de editar y haga clic en **Eliminar** en la barra de comandos para quitar el texto predeterminado.
 
@@ -156,7 +156,7 @@ Deberá seguir el siguiente esquema para diseñar el portal de Power Apps:
 
     -   Seleccione el componente de lista en el lienzo
 
-    -   En el panel Propiedades (lado derecho), escriba `Lista de edificios` en el campo **Nombre**.
+    -   En el panel Propiedades (lado derecho), escriba `Buildings List` en el campo **Nombre**.
 
     -   En el campo **Tabla**, seleccione **Edificios (bc_edificio)** en la lista desplegable.
 

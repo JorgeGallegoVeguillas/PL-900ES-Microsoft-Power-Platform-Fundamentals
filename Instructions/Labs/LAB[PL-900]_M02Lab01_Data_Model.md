@@ -119,7 +119,7 @@ Su solución contendrá varias tablas al completar todas las personalizaciones:
     
 10.  Vuelva a hacer clic en **Agregar**. Esto agregará la tabla de contactos con la vista y el formulario seleccionados a la solución que acaba de crear. 
     
-    > Su solución ahora debería tener la siguiente tabla: Contacto.
+> Su solución ahora debería tener la siguiente tabla: Contacto.
 
 ## Tarea 2: Crear la tabla Edificio
 

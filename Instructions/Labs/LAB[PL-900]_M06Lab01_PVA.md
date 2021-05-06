@@ -135,7 +135,7 @@ En esta tarea, cambiará el saludo a uno específico para temas sobre la COVID-1
 
 4.  El tema del saludo tiene 52 frases desencadenadoras, haga clic en **Ir al lienzo de creación**.
 
-5.  Vaya al primer mensaje y reemplácelo por `Hola, soy un agente virtual. Puedo contarle cómo se transmite la COVID-19, cómo protegerse y cómo preparar su hogar y a su familia para la COVID-19, además de hablarle de los síntomas, las pruebas, etc.`
+5.  Vaya al primer mensaje y reemplácelo por `Hi, I’m a virtual agent. I can tell you about how COVID-19 spreads, how to protect yourself, preparing your home and family for COVID-19, symptoms, testing, and more.`
 
 6.  Haga clic en **Guardar**.
 
@@ -159,13 +159,13 @@ En este ejercicio, publicará el bot.
 
 5.  Obtendrá una lista de los canales disponibles en los que puede publicar su bot. Seleccione **Sitio web de demostración**.
 
-6.  Cambie el mensaje de bienvenida a `Pruebe mi bot de P+F sobre la COVID-19`.
+6.  Cambie el mensaje de bienvenida a `Try my COVID-19 FAQ bot.`.
 
 7.  Escriba lo siguiente en **Iniciadores de conversación**:
     ```
-     “¿Quién corre mayor riesgo de sufrir complicaciones graves por la COVID-19?”
-     “¿A qué hace referencia complicaciones más graves?”
-     “¿Qué están haciendo los CDC respecto a la COVID-19?”
+     “Who is at higher risk for serious illness from COVID-19”
+     “What does more severe illness mean”
+     “What is the CDC doing about COVID-19”
     ```
     
 8.  Haga clic en **Guardar**.

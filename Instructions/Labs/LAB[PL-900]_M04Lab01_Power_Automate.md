@@ -252,7 +252,7 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
 
 18.  Pulse **Guardar**.
 
-    El flujo debería ser parecido a lo siguiente:
+El flujo debería ser parecido a lo siguiente:
 
 ![Parte 1 del flujo programado del barrido de seguridad](media/4-power-automate-security-sweep-flow.png)
 
