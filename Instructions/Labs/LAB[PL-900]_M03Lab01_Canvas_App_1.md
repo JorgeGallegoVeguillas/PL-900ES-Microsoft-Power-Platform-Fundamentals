@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Laboratorio 2: Cómo crear una aplicación de lienzo (Parte 1)'
     module: 'Módulo 3: Comience con Power Apps'
