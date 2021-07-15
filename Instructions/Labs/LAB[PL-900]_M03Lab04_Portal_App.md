@@ -78,7 +78,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
 3.  En el panel Propiedades bajo **Mostrar**, cambie el **Nombre** de **Página nueva (1)** a `Building Directory`.
 
-4.  En la **URL parcial**, cambie el valor a "directorio-de-edificios" y pulse la tecla Tabulación (para iniciar el guardado automático).
+4.  En la **URL parcial**, cambie el valor a `building-directory` y pulse la tecla Tabulación (para iniciar el guardado automático).
 
     > El título de la página ahora debería leerse **Directorio de edificios**
     
@@ -88,7 +88,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   En el lienzo (área que muestra la página web), seleccione la sección **Copia de página**. Es el cuadro grande alrededor de las 2 frases de texto en el medio de su página.
 
-    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
+    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Componentes**
 
     -   Escoja **Sección de dos columnas** desde el área **Diseño de sección**
 
@@ -110,7 +110,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   En el lienzo (área que muestra la página web), seleccione la columna de la derecha
 
-    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
+    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Componentes**
 
     -   Elija **Imagen** desde el área **Componentes del portal**
 
@@ -140,13 +140,13 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   Seleccione la sección con dos columnas.
 
-    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
+    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Componentes**
 
     -   Elija **Sección de una columna** desde el área **Diseño de sección** (aparecerá una sección debajo de la imagen y el texto en la página web)
 
     -   Seleccione la nueva sección de columna en el lienzo
 
-    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono**Componentes**
+    -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Componentes**
 
     -   Elija **Lista** desde el área **Componentes del portal** (aparecerá un componente de lista en la nueva sección)
     
@@ -154,7 +154,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   Seleccionar el componente de lista en el lienzo
 
-    -   En el panel Propiedades (lado derecho), escriba "Lista de edificios" en el campo **Nombre**.
+    -   En el panel Propiedades (lado derecho), escriba `Buildings List` en el campo **Nombre**.
 
     -   En el campo **Tabla**, seleccione **Edificios (bc_edificio)** en la lista desplegable.
 

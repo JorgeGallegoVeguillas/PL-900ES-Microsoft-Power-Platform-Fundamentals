@@ -110,7 +110,7 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
         Bellows College
         ```
    
-10.  Seleccione el nombre del flujo **Sin título** en la parte superior y cámbiele el nombre a "Notificación de visita".
+10.  Seleccione el nombre del flujo **Sin título** en la parte superior y cámbiele el nombre a `Visit notification`.
 
 11. Pulse **Guardar**.
 
@@ -224,19 +224,19 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
     
     * Haga clic en **[...]** junto a **Obtener un registro** y seleccione **Cambiar el nombre**. Escriba **Obtener visitante** como nombre del paso.
     
-11.  Enviar una notificación por correo electrónico
+10.  Enviar una notificación por correo electrónico
 
      * Haga clic en **Agregar una acción** dentro de Aplicar para cada bucle. Añada la acción **Enviar una notificación por correo electrónico** de conexión de **Correo**.
 
-12.  Introduzca su dirección de correo electrónico como **Para**
+11.  Introduzca su dirección de correo electrónico como **Para**
 
-13.  Escriba lo siguiente en el campo **Asunto**. **Nombre completo** es un contenido dinámico del paso **Obtener visitante**.
+12.  Escriba lo siguiente en el campo **Asunto**. **Nombre completo** es un contenido dinámico del paso **Obtener visitante**.
 
    ```
-   {Nombre completo} sobrepasó el tiempo de su visita.
+   {Full Name} overstayed their welcome
    ```
    
-14.  Escriba lo siguiente en el campo **Cuerpo**. **Nombre** es un contenido dinámico de la etapa **Obtener edificio**.
+13.  Escriba lo siguiente en el campo **Cuerpo**. **Nombre** es un contenido dinámico de la etapa **Obtener edificio**.
 
    ```
    There is an overstay in building {Name}.
@@ -246,9 +246,9 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
    Campus Security
    ```
 
-17.  Seleccione el nombre de flujo **Sin título** en la esquina superior izquierda y cámbiele el nombre a **Barrido de seguridad**.
+14.  Seleccione el nombre de flujo **Sin título** en la esquina superior izquierda y cámbiele el nombre a **Barrido de seguridad**.
 
-18.  Pulse **Guardar**.
+15.  Pulse **Guardar**.
 
     El flujo debería ser algo parecido a lo siguiente:
 

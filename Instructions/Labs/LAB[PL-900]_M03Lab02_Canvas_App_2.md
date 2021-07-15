@@ -105,9 +105,9 @@ Seguirá el siguiente esquema para diseñar la aplicación de lienzo:
 
     -   Con el objeto de entrada de texto seleccionado, seleccione el texto de la propiedad **Predeterminado** y borre el valor.
     
-    -   Seleccione la propiedad **HintText** y especifique "Escribir el código de visitante" como valor (incluidas las comillas dobles).
+    -   Seleccione la propiedad **HintText** y especifique `"Enter visitor code"` como valor (incluidas las comillas dobles).
     
-    -   Haga clic en **[...]** junto al nombre del control en la vista de árbol (TextInput1), seleccione **Cambiar nombre** y cambie el nombre a "textCode".
+    -   Haga clic en **[...]** junto al nombre del control en la vista de árbol (TextInput1), seleccione **Cambiar nombre** y cambie el nombre a `textCode`.
     
 3.  Agregar una vista de formulario
 
@@ -133,7 +133,7 @@ Seguirá el siguiente esquema para diseñar la aplicación de lienzo:
    
     -   Haga clic en la **X** para cerrar el panel Campos
    
-5.  Con la vista de formulario seleccionada, seleccione la pestaña Avanzado del panel Propiedades. Seleccione la propiedad **Item** y escriba "LookUp(Visits, Code = textCode.Text)" 
+5.  Con la vista de formulario seleccionada, seleccione la pestaña Avanzado del panel Propiedades. Seleccione la propiedad **Item** y escriba `LookUp(Visits, Code = textCode.Text)` 
 
 6.  Para conservar el trabajo en curso, haga clic en **Archivo** y luego en **Guardar**. Utilice la flecha hacia atrás para volver a la aplicación.
 
@@ -183,15 +183,15 @@ En esta tarea, crearemos botones para que el usuario se registre y salga de su V
    
    * Haga clic en **Botón**
    
-   * En el panel Propiedades, cambie la propiedad **Texto** del botón a "`Entrada`" (puede escribir dentro de las comillas existentes).
+   * En el panel Propiedades, cambie la propiedad **Texto** del botón a "`Check In`" (puede escribir dentro de las comillas existentes).
    
-   * Haga clic en **[...]** junto al nombre del botón en la vista de árbol (Button 1), seleccione **Cambiar nombre** y cámbielo a "CheckInButton".
+   * Haga clic en **[...]** junto al nombre del botón en la vista de árbol (Button 1), seleccione **Cambiar nombre** y cámbielo a `CheckInButton`.
 
 3. Agregar un botón Salida   
 
    * Haga clic en **Botón** en la pestaña Insertar para agregar otro botón.
    
-   * En el panel Propiedades, cambie la propiedad **Texto** del botón a "`Salida`" (puede escribir dentro de las comillas existentes).
+   * En el panel Propiedades, cambie la propiedad **Texto** del botón a "`Check Out`" (puede escribir dentro de las comillas existentes).
    
    * Cambie el nombre del botón a `CheckOutButton`
    
