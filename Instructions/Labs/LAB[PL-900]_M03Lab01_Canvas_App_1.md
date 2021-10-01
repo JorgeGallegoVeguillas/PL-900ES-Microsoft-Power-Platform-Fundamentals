@@ -52,30 +52,30 @@ Seguiremos el siguiente esquema para diseñar la aplicación de lienzo:
 
 En esta tarea, creará una aplicación de lienzo utilizando la plantilla de diseño de teléfono basada en Microsoft Dataverse. Usando Visitas como una tabla seleccionada de Dataverse, la plantilla generará la aplicación Galería: Ver: Editar para administrar las visitas al campus.
 
-1.  Ver las aplicaciones en su ambiente
+1.  Comenzar a crear una aplicación a partir de datos
 
     -   Inicie sesión en <https://make.powerapps.com>
 
     -   Seleccione su **entorno** en la parte superior derecha si aún no está configurado en
         su entorno de práctica.
 
-    -   Seleccione **Aplicaciones**.
+    -   Seleccione el icono **Dataverse** dentro de **Iniciar a partir de datos** en la pantalla principal.
 
-2.  Cree nueva aplicación de lienzo
+2.  Conectarse a la tabla Visitas
+    
+    -   Seleccione **+ Nueva conexión**.
 
-    -   Haga clic en **Nueva aplicación** y seleccione **Lienzo**.
+    -   Seleccione **Microsoft Dataverse** y haga clic en **Crear**.
 
-    -   Seleccione **Diseño de teléfono** debajo de **Microsoft Dataverse (heredado)**.
+    -   Busque y seleccione la tabla **Visitas**.
 
-4.  Seleccione la tabla **Visitas**. Haga clic en **Conectar**.
+    -   Seleccione **Conectar**.
 
-6.  Puede que aparezca la ventana **Bienvenido a Power Apps Studio**. Haga clic en **Omitir**.
+3.  Puede que aparezca la ventana **Bienvenido a Power Apps Studio**. Haga clic en **Omitir**.
 
-7.  Guardar aplicación
+4.  Guardar aplicación
 
     -   Haga clic en **Archivo \> Guardar**.
-
-    -   Escriba **[Su apellido] Personal del campus** como el Nombre.
 
     -   Presione **Guardar**.
 
