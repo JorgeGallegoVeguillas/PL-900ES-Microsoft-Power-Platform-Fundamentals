@@ -72,6 +72,8 @@ Su solución contendrá varias tablas al completar todas las personalizaciones:
     -   Haga clic en el menú desplegable **Publicador** y seleccione **+ Publicador**
 
     -   En la ventana emergente, escriba **Bellows College** en **Nombre para mostrar**. 
+
+    -   Escriba **BellowsCollege** en **Nombre**.
     
     -   Escriba **bc** en **Prefijo**.
 
@@ -115,10 +117,10 @@ Su solución contendrá varias tablas al completar todas las personalizaciones:
 
     > Debería tener **1 vista** y **1 formulario** seleccionados. 
     
-10.  Vuelva a hacer clic en **Añadir**. Esto agregará la tabla Contacto con la vista y el formulario seleccionados a la solución que acaba de crear. 
-    
-    > Ahora su solución debería tener una tabla: Contacto.
+10.  Vuelva a hacer clic en **Añadir**. Esto agregará la tabla Contacto con la vista y el formulario seleccionados a la solución que acaba de crear.
 
+> Ahora su solución debería tener una tabla: Contacto.
+    
 ## Tarea 2: Crear la tabla Edificio
 
 1.  Debe mantener su explorador abierto en su solución Administración del campus. De lo contrario, abra la solución Administración del campus siguiendo estos pasos:
@@ -134,7 +136,7 @@ Su solución contendrá varias tablas al completar todas las personalizaciones:
     
     -   Escriba **Edificio** en **Nombre para mostrar**. 
     
-    -   Haga clic en **Crear**. Esto iniciará el aprovisionamiento de la tabla en segundo plano, y podrá comenzar a agregar otras tablas y columnas.
+    -   Haga clic en **Guardar**. Esto iniciará el aprovisionamiento de la tabla en segundo plano, y podrá comenzar a agregar otras tablas y columnas.
 
 ## Tarea 3: Crear la tabla y las columnas Visita
 
@@ -144,7 +146,12 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
 
 > Usamos el comportamiento de **Independiente de la zona horaria** para registrar información de la fecha y hora, ya que el horario de una visita es siempre local para la ubicación del edificio y no debe cambiar cuando se consulta desde una zona horaria diferente. 
 
-1.  Seleccione la solución **Administración del campus**.
+1.  Debe mantener su explorador abierto en su solución Administración del campus. De lo contrario, abra la solución Administración del campus siguiendo estos pasos:
+
+    * Regístrese en <https://make.powerapps.com> (si aún no lo ha hecho)
+    
+    * Seleccione **Soluciones** y haga clic para abrir la solución **[su apellido] Administración del campus**
+          que acaba de crear.
 
 2. Crear la tabla Visita
 
@@ -152,9 +159,11 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
    
    * Escriba **Visita** en **Nombre para mostrar**. 
    
-   * Haga clic en **Crear**. Esto iniciará el aprovisionamiento de la tabla en segundo plano, y podrá comenzar a agregar otras columnas.
+   * Haga clic en **Guardar**. Esto iniciará el aprovisionamiento de la tabla en segundo plano, y podrá comenzar a agregar otras columnas.
 
 3. Crear la columna Inicio programado
+
+   * Seleccione la tabla **Visitas**.
 
    * Asegúrese de tener la pestaña **Campos** seleccionada y haga clic en **Agregar columna**.
    
@@ -262,7 +271,9 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
     
 4.  Haga clic en **Guardar tabla**.
 
-5.  Seleccione **Soluciones** en el menú superior y haga clic en **Publicar todas las personalizaciones**.
+5.  Seleccione **Volver a soluciones** en la parte superior izquierda.
+
+6.  Seleccione **Publicar todas las personalizaciones**.
 
 # Ejercicio 4: Importar datos
 

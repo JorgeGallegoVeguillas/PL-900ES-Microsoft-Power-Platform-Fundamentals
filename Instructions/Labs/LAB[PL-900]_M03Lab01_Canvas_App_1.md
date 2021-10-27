@@ -77,6 +77,8 @@ En esta tarea, creará una aplicación de lienzo utilizando la plantilla de dise
 
     -   Haga clic en **Archivo \> Guardar**.
 
+    -   Escriba [Su apellido] Personal del campus como el **Nombre de la aplicación**.
+
     -   Presione **Guardar**.
 
 ## Tarea 2: Configurar el formulario Detalles de visitas
