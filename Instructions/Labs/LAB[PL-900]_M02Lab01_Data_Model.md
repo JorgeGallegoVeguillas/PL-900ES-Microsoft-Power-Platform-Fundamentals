@@ -298,7 +298,7 @@ En esta tarea, importará una solución que contiene el flujo de Power Automate 
 >   Faltan dependencias. Instale las siguientes soluciones antes de instalar esta...
 >
 >   Ese mensaje indica que el modelo de datos no está completo, el
->   prefijo del publicador no es **bc** o los nombres de las tablas **Edificio** y **Visita**
+>   prefijo del publicador no es **bc** o los nombres de las tablas **Building** y **Visits**
 >   difieren de los nombres enumerados en los pasos anteriores.
 
 6. Presione **Siguiente**. Se le pedirá que restablezca las conexiones. 
