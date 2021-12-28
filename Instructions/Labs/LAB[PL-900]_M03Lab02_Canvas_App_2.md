@@ -7,11 +7,6 @@ lab:
 # Módulo 3: Introducción a Power Apps
 ## Laboratorio 2: Cómo crear una aplicación de lienzo, parte 2
 
-### Aviso importante (noviembre de 2020):
-Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, entidad (a partir de ahora **tabla**), campo (a partir de ahora **columna**) y registro (a partir de ahora **fila**) pueden estar desactualizados. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible.
-
-Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
-
 # Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Actualmente se guarda un registro físico de las visitas al campus. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus. 
@@ -62,18 +57,22 @@ Seguirá el siguiente esquema para diseñar la aplicación de lienzo:
     
 2.  Crear una nueva aplicación de lienzo
 
-    -   Haga clic en **Nuevo** y seleccione **Aplicación \| Aplicación de lienzo \| Factor de forma de teléfono**.
-        Esto abrirá el Editor de aplicaciones en una Nueva ventana.
-        
-    -   Haga clic en **Omitir** si se presenta el cuadro de diálogo Bienvenido a Power Apps Studio.
+    -   Haga clic en **Nuevo** y seleccione **Aplicación \| Aplicación de lienzo**.
+
+    -   En la aplicación de lienzo de la ventana en blanco, escriba **[Su apellido] Seguridad del campus** en el campo de nombre de la aplicación.
+
+    -   Seleccione **Teléfono** en el campo de formato.
+
+    -   Haga clic en **Crear**.
+        Esto abrirá el Editor de aplicaciones en una Nueva ventana. Haga clic en **Omitir** si se presenta el cuadro de diálogo Bienvenido a Power Apps Studio.
     
 3.  Guardar la aplicación de lienzo
 
     -   Haga clic en **Archivo** y seleccione **Guardar como**.
     
-    -   Compruebe si **La nube** está seleccionada. 
-    
-    -   Escriba **(Su apellido) Seguridad del campus** como Nombre y haga clic en **Guardar**.
+    -   Compruebe si **La nube** está seleccionada y haga clic en **Guardar**.
+
+    -   Compruebe **(Su apellido) Seguridad del campus** como Nombre y haga clic en **Guardar**.
         
     -   Haga clic en la flecha **Atrás** de la parte superior izquierda (debajo de Power Apps) para volver a la aplicación.
 

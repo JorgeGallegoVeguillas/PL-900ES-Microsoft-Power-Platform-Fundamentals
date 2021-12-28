@@ -5,12 +5,6 @@ lab:
 ---
 
 # Módulo 2: Introducción a Microsoft Dataverse
-## Laboratorio: Modelado de datos
-
-### Aviso importante (noviembre de 2020):
-Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, entidad (a partir de ahora **tabla**), campo (a partir de ahora **columna**) y registro (a partir de ahora **fila**) pueden estar desactualizados. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible.
-
-Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
 
 # Escenario
 
@@ -69,7 +63,7 @@ Su solución contendrá varias tablas al completar todas las personalizaciones:
 
 2.  Cree un publicador
 
-    -   Haga clic en el menú desplegable **Publicador** y seleccione **+ Publicador**
+    -   En la sección **Editor**, seleccione **+ Editor**
 
     -   En la ventana emergente, escriba **Bellows College** en **Nombre para mostrar**. 
 
@@ -77,7 +71,7 @@ Su solución contendrá varias tablas al completar todas las personalizaciones:
     
     -   Escriba **bc** en **Prefijo**.
 
-    -   Haga clic en **Guardar y cerrar**.
+    -   Haga clic en **Guardar**
     
     -   Haga clic en **Listo** en la ventana emergente.
 

@@ -98,9 +98,9 @@ Seguiremos los pasos que se señalan a continuación para diseñar para crear el
     
 2. Abra Power BI Desktop e inicie sesión con las credenciales que le han dado si se le pide.
 
-3. Seleccione **Obtener datos**.
+3. Seleccione **Obtener datos** y, después, elija **más...**.
 
-4. Seleccione **Power Platform** a la izquierda, luego seleccione **Common Data Service** y pulse **Conectar**.
+4. Seleccione **Power Platform** a la izquierda, luego seleccione **Common Data Service (heredado)** y presione **Conectar**. Si se le pide, inicie sesión con las credenciales que le han proporcionado y haga clic en **Conectar**.
 
 5. Pegue la URL del entorno que copió anteriormente en el campo **URL del servidor** y pulse **Aceptar**.
 

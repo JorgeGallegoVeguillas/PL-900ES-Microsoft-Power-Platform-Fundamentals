@@ -7,13 +7,6 @@ lab:
 Módulo 0: Introducción al curso
 =================================
 
-## Laboratorio: Valide un entorno de laboratorio
-
-### Aviso importante (noviembre de 2020):
-Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, entidad (a partir de ahora **tabla**), campo (a partir de ahora **columna**) y registro (a partir de ahora **fila**) pueden estar desactualizados. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible. 
-
-Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
-
 Escenario
 --------
 
@@ -27,7 +20,7 @@ En este laboratorio del Módulo 0, adquirirá un inquilino de prueba de Power Pl
 
 ## Ejercicio 1: Configuración
 
-### Tarea 1: Adquirir su inquilino de prueba de Power Platform
+### Tarea 1: Adquirir su inquilino de prueba de Microsoft Power Platform
 
 1. Copie sus **Credenciales de Microsoft 365** del proveedor de servicios de hosting del laboratorio autorizado.
 
@@ -41,9 +34,11 @@ En este laboratorio del Módulo 0, adquirirá un inquilino de prueba de Power Pl
 
 6. Seleccione **Sí** para permanecer conectado.
 
-### Tarea \2: Crear un entorno
+7. Completa la información de su cuenta y selecciona **Comenzar** para registrarse y obtener su prueba de Microsoft Power Platform.  
 
-1.  Acceda a <https://admin.powerplatform.microsoft.com> y inicie sesión con sus credenciales de Microsoft 365 si se le solicita de nuevo.
+### Tarea 2: Crear un entorno
+
+1. Acceda a <https://admin.powerplatform.microsoft.com> y inicie sesión con sus credenciales de Microsoft 365 si se le solicita de nuevo.
 
 2. Seleccione **Entornos** y haga clic en **+Nuevo**.
 
