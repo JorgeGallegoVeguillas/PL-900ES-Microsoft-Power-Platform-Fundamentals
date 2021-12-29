@@ -7,11 +7,6 @@ lab:
 # Módulo 4: Comience con Power Automate
 ## Laboratorio: Cómo crear una solución automatizada
 
-### Aviso importante (noviembre de 2020):
-Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, entidad (a partir de ahora **tabla**), campo (a partir de ahora **columna**) y registro (a partir de ahora **fila**) pueden estar desactualizados. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible.
-
-Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
-
 ## Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Los visitantes del campus están actualmente registrados en revistas en papel. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus. 
@@ -57,23 +52,23 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
 
     -   Haga clic para abrir la solución de **Administración del campus**.
 
-2.  Haga clic en **Nuevo** y seleccione **Flujo de nube**. Se abrirá el editor de flujo de Power Automate en una nueva ventana.
+2.  Haga clic en **Nuevo** y seleccione **Automatización**, **Flujo de nube** y luego **Automatizado**. Se abrirá el editor de flujo de Power Automate en una nueva ventana.
 
-3. Seleccione **Microsoft Dataverse**.
+3. En **Elija el desencadenador del flujo**, busque **Microsoft Dataverse**.
 
-4. Seleccione el desencadenador **Cuando se crea, actualiza o elimina un registro**.
+4. Seleccione el desencadenador **Cuando se agrega, modifica o elimina una flecha** y haga clic en **Crear**.
 
-   * Seleccione **Crear** para **Cambiar tipo**.
+   * Seleccione **Agregado** para **Tipo de cambio**.
    
    * Seleccione **Visitas** para **Nombre de tabla**.
    
    * Seleccione **Organización** para el **ámbito**.
    
-   * En la etapa de desencadenamiento, haga clic en los puntos suspensivos (**...**) y en **Cambiar el nombre**. Cambie el nombre de este desencadenador a **"Cuando se crea una visita"**. Esta es una buena manera de que usted y otros editores de flujo puedan comprender el propósito de la etapa sin tener que profundizar en los detalles.
+   * En la etapa de desencadenamiento, haga clic en los puntos suspensivos (**...**) y en **Cambiar el nombre**. Cambie el nombre de este desencadenador a **"Cuando se agrega una visita"**. Esta es una buena manera de que usted y otros editores de flujo puedan comprender el propósito de la etapa sin tener que profundizar en los detalles.
 
 5. Seleccione **Nuevo paso**. Esta etapa es necesaria para recuperar la información de los visitantes, incluyendo la dirección de correo electrónico.
 
-6. Seleccione **Microsoft Dataverse**.
+6. Busque **Microsoft Dataverse**.
 
 7. Seleccione la acción **Obtener una fila por id.**. 
 
@@ -85,7 +80,7 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
 
 8. Haga clic en **Nuevo paso**. Esta es la etapa que creará y enviará un correo electrónico al visitante.
 
-9. Busque el *correo*, seleccione el conector **Correo** y la acción **Enviar una notificación por correo electrónico**. 
+9. Busque el *correo* y seleccione el conector **Office 365 Outlook** y la acción **Enviar un correo electrónico (V2)**.
 
    * Si se le solicita que acepte los términos y condiciones para usar esta acción, haga clic en **Aceptar**.
    
@@ -166,11 +161,11 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
 
    -   Haga clic para abrir la solución de **Administración del campus**.
 
-2. Haga clic en **Nuevo** y seleccione **Flujo de nube**. Se abrirá el editor de flujo de Power Automate en una nueva ventana.
+2. Haga clic en **Nuevo** y seleccione **Automatización**, **Flujo de nube** y luego **Programado**. Se abrirá el editor de flujo de Power Automate en una nueva ventana.
 
-3. Busque *Periodicidad*, seleccione el conector **Programación** y luego, seleccione el desencadenante **Periodicidad**.
+3. Establezca el flujo de modo que se repita cada **15** minutos.
 
-4. Establezca **Intervalo** en **15 minutos**
+4. Haga clic en **Crear**.
 
 5. Haga clic en **Nuevo paso**. Busque *Current* y seleccione el conector de **Microsoft Dataverse**. Seleccione la acción **Filas de lista**.
 
@@ -226,7 +221,7 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
     
 10.  Enviar una notificación por correo electrónico
 
-     * Haga clic en **Agregar una acción** dentro de Aplicar para cada bucle. Añada la acción **Enviar una notificación por correo electrónico** de conexión de **Correo**.
+     * Haga clic en **Agregar una acción** dentro de Aplicar para cada bucle. Agregue la acción **Enviar un correo electrónico (V2)** desde la conexión **Office 365 Outlook**.
 
 11.  Introduzca su dirección de correo electrónico como **Para**
 
@@ -236,7 +231,7 @@ Se han identificado las siguientes condiciones como requisitos que debe implemen
    {Full Name} overstayed their welcome
    ```
    
-13.  Escriba lo siguiente en el campo **Cuerpo**. **Nombre** es un contenido dinámico de la etapa **Obtener edificio**.
+13.  Escriba lo siguiente en el campo **Cuerpo**. **Nombre** es un contenido dinámico de la etapa **Obtener edificio**. Es posible que tenga que desplazarse hasta el final de la lista.
 
    ```
    There is an overstay in building {Name}.

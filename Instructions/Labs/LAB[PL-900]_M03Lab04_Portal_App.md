@@ -8,11 +8,6 @@ lab:
 
 ## Laboratorio 4: Cómo crear un portal de Power Apps
 
-### Aviso importante (noviembre de 2020):
-Desde noviembre de 2020, Common Data Service se llama Microsoft Dataverse. Algunos de los términos de Microsoft Dataverse se han modificado. Por ejemplo, entidad (a partir de ahora **tabla**), campo (a partir de ahora **columna**) y registro (a partir de ahora **fila**) pueden estar desactualizados. Tenga esto en cuenta a la hora de utilizar los laboratorios. Esperamos actualizar todo el contenido lo antes posible. 
-
-Si quiere obtener más información o quiere ver una lista de los términos modificados, consulte [¿Qué es Microsoft Dataverse?](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro#terminology-updates)
-
 # Escenario
 
 Bellows College es una institución educativa que tiene un campus con varios edificios. Actualmente se guarda un registro físico de las visitas al campus. La información no se recaba de manera uniforme y no hay forma de recopilar y analizar los datos sobre las visitas de todo el campus.
@@ -74,7 +69,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   En la barra de comandos, seleccione **Nueva página.**
 
-    -   Sitúe el ratón sobre **Diseños fijos** y elija **Página con título**
+    - Seleccione **Página de aterrizaje**
 
 3.  En el panel Propiedades bajo **Mostrar**, cambie el **Nombre** de **Página nueva (1)** a `Building Directory`.
 
@@ -86,7 +81,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
 1.  Agregue una sección a la página web
 
-    -   En el lienzo (área que muestra la página web), seleccione la sección **Copia de página**. Es el cuadro grande alrededor de las 2 frases de texto en el medio de su página.
+    - En el lienzo (área que muestra la página web), seleccione una sección de la página que no sea una columna.
 
     -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Componentes**
 
@@ -114,11 +109,35 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   Elija **Imagen** desde el área **Componentes del portal**
 
-    -   En el panel Propiedades, haga clic en **Seleccionar una imagen**. Busque y seleccione el **Producto A.png**
+    - En el panel Propiedades, haga clic en **Seleccionar una imagen**. Busque y seleccione **Pages.png**
     
     -   En el panel Propiedades, haga clic en el menú desplegable de la sección **Formato** y cambie el **Ancho** al 70 % (asegúrese de escribir el %). Puede jugar con el tamaño de la imagen hasta que quede como desee.
 
-4.  Haga clic en **Navegar por el sitio web** para ver la página hasta ahora.  Fíjese que ahora en el menú principal aparece la opción **Directorio de edificios**.
+4.  Configure los derechos para mostrar la lista de edificios 
+
+    -   En el menú de la izquierda, haga clic en Configuración (símbolo de engranaje) y elija **Ver más opciones de configuración**. Esta acción abrirá opciones de configuración adicionales en una pestaña nueva.
+
+    -   En el menú de la izquierda, desplácese a **Seguridad** y seleccione **Permisos de tabla**.
+
+    -   Haga clic en **Nuevo** y agregue los valores siguientes:
+
+        -   **Nombre**: mostrar lista de edificios
+        -   **Nombre de la tabla**: en el menú desplegable de la derecha, seleccione Edificio (bc_building)
+        -   **Sitio web**: haga clic en la lupa y seleccione el sitio web (Visitantes de Bellows: [su nombre])
+        -   **Tipo de acceso**: global
+        -   **Privilegios**: lectura
+    
+    -   En el menú superior, seleccione **Guardar**.
+    
+    -   Desplácese hasta la sección **Roles web** y **Agregar rol web existente**.
+    
+    -   Haga clic en la lupa, seleccione **Usuarios anónimos** y haga clic en **Agregar**.
+    
+    -   En el menú superior, seleccione **Guardar y cerrar**.
+    
+    -   Vuelva a la pestaña anterior.
+
+5.  Haga clic en **Navegar por el sitio web** para ver la página hasta ahora.  Fíjese que ahora en el menú principal aparece la opción **Directorio de edificios**.
 
     > Es posible que deba configurar su explorador para permitir las ventanas emergentes.
 
@@ -184,7 +203,7 @@ Seguirá el siguiente esquema para diseñar el portal de Power Apps:
 
     -   En el cinturón de herramientas (lado izquierdo), seleccione el icono **Temas**.
     
-    -   Haga clic en la alternancia **Habilitar tema básico** para activar esta característica.
+    - Asegúrese de que el botón de alternancia de **Habilitar tema básico** esté activado.
     
     -   En uno de los ajustes preestablecidos, haga clic en los puntos suspensivos(**...**) y elija **Personalizar**
     

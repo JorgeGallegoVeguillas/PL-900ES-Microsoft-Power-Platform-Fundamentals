@@ -81,7 +81,7 @@ En este ejercicio, creará temas del sitio de P+F de los CDC.
 
 5.  Haga clic en **Comenzar**.
 
-6.  Pegue la URL que copió en el cuadro de texto **Vínculo al contenido en línea** y haga clic en **Agregar**.
+6. Pegue la dirección URL que copió en el cuadro de texto **Vínculo al contenido en línea** y haga clic en **Agregar**. Tenga en cuenta que, si copió la dirección URL completa, https:// figurará dos veces. Asegúrese de que la dirección URL solo enumere el protocolo una vez.
 
 7.  Haga clic en **Iniciar** y espere. Esto puede durar unos minutos.
 

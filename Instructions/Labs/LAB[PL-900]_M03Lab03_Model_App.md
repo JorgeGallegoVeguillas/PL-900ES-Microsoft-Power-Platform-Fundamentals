@@ -214,7 +214,7 @@ Ahora clonaremos la vista para crear una nueva vista para las visitas de hoy.
     
     -   Entre **Configuraciones** para **Título** en el panel **Propiedades**.
     
-    -   Con el área **Configuración** seleccionada, haga clic en **Agregar**.
+    -   Con el grupo **Configuración** seleccionado, haga clic en **Agregar**.
     
     -   Seleccione **Subárea**.
     
