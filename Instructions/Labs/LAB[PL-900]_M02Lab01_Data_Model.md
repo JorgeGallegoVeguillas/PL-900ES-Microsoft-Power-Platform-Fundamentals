@@ -280,6 +280,7 @@ En esta tarea, importará una solución que contiene el flujo de Power Automate 
 1. Debería tener el archivo **DataImport_managed.zip** almacenado en su escritorio. Si no, descargue la [Solución de importación de datos](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/DataImport_managed.zip?raw=true).
 
 2. Conéctese a <https://make.powerapps.com>.
+2. Conéctese a <https://admin.powerplatform.microsoft.com/environments> y seleccione en el panel de la izquierda Environments/Entornos> "Seleccionar_Nombre_de_Environment/Entorno" > "Settings ó Configuración" > "Data Management/Gestión Entorno" > "Import/Importación"
 
 3. Seleccione su ambiente **Práctica [mis iniciales]** en la parte superior derecha, si aún no está seleccionado.
 
