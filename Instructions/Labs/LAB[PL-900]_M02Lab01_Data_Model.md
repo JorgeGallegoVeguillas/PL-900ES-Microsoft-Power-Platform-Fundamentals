@@ -251,7 +251,7 @@ Nos gustaría asignar a cada visita un número único que el visitante pueda ing
     
     * Seleccione **Contacto** para **Relacionados (uno)**. 
     
-    * Escriba **Visitante** para **Nombre para mostrar del campo de búsqueda** 
+    * Escriba **Visitante** or **Contacto** or **Contact** para **Nombre para mostrar del campo de búsqueda** 
     
     * Haga clic en **Listo**.
     
